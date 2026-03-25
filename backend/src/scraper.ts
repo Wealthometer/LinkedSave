@@ -89,3 +89,4 @@ export class LinkedInScraper {
           /emoji|reaction|reactions|emoticon|like_|clap_|praise_|support|insightful|curious|comment|profile-displayphoto|ghost/.test(
             src
           );
+
