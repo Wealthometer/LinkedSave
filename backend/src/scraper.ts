@@ -55,3 +55,4 @@ export class LinkedInScraper {
 
     try {
       await page.goto(url, { waitUntil: "networkidle2", timeout: 30_000 });
+
