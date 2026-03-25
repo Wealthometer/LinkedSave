@@ -30,3 +30,4 @@ app.use(
 );
 
 app.listen(PORT, () => {
+  console.log(`\n🚀 Backend running at http://localhost:${PORT}\n`);
