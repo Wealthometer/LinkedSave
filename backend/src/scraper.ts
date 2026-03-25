@@ -156,3 +156,4 @@ export class LinkedInScraper {
 
         videoSelectors.forEach((sel) => {
           document.querySelectorAll<HTMLVideoElement>(sel).forEach((vid) => {
+            const dataSources = vid.getAttribute("data-sources");
