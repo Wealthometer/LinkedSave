@@ -61,3 +61,4 @@ router.post(
 
 // GET /api/download  (proxy download)
 router.get("/download", async (req: Request, res: Response) => {
+  const { url, filename } = req.query as { url?: string; filename?: string };
