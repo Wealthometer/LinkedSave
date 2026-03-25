@@ -165,3 +165,4 @@ export class LinkedInScraper {
                 }>;
 
                 if (parsed.length) {
+                  const best = parsed
