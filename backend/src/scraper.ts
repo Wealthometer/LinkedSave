@@ -178,3 +178,4 @@ export class LinkedInScraper {
                       type: "video",
                       url: best.src,
                       fullUrl: best.src,
+                      quality: best.data?.progressiveResolution,
