@@ -31,3 +31,4 @@ export class LinkedInScraper {
     if (!this.browser) throw new Error("Browser not launched");
 
     const page = await this.browser.newPage();
+    await page.setUserAgent(USER_AGENT);
