@@ -17,3 +17,4 @@ export interface ExtractResponse {
   media: MediaItem[];
   title?: string;
   message?: string;
+  error?: string;
