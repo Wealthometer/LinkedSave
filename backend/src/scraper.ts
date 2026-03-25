@@ -194,3 +194,4 @@ export class LinkedInScraper {
               vid.querySelector("source")?.getAttribute("src") ||
               vid.getAttribute("src");
 
+            if (src && src.startsWith("http")) {
