@@ -46,3 +46,4 @@ export class LinkedInScraper {
     return page;
   }
 
+  async extractMedia(
