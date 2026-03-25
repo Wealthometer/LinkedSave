@@ -78,3 +78,4 @@ export class LinkedInScraper {
 
         const isMediaHost = (src: string) => {
           try {
+            const host = new URL(src).hostname;
