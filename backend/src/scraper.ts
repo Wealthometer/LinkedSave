@@ -144,3 +144,4 @@ export class LinkedInScraper {
           const match = el.style.backgroundImage.match(/url\(["']?(.*?)["']?\)/);
           const src = match?.[1];
           if (src && src.startsWith("http") && isMediaHost(src) && !isEmojiOrIcon(src)) {
+            addIfNew({ type: "image", url: src, fullUrl: src });
