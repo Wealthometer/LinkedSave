@@ -34,3 +34,4 @@ export class LinkedInScraper {
     await page.setUserAgent(USER_AGENT);
     await page.setViewport({ width: 1280, height: 800 });
 
+    // Stealth: mask webdriver flag
