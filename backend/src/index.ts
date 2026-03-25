@@ -11,3 +11,4 @@ app.use(
     methods: ["GET", "POST", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type"],
   })
+);
