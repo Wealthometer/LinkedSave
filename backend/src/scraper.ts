@@ -40,3 +40,4 @@ export class LinkedInScraper {
     });
 
     if (cookies.length > 0) {
+      await page.setCookie(...cookies);
