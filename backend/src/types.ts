@@ -39,3 +39,4 @@ export interface LinkedInCookie {
   value: string;
   domain: string;
   path?: string;
+  expires?: number;
