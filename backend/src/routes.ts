@@ -31,3 +31,4 @@ router.post(
 
     if (!url.includes("linkedin.com")) {
       return res
+        .status(400)
