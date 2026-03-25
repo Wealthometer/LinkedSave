@@ -96,3 +96,4 @@ export class LinkedInScraper {
             results.push(item);
           }
         };
+
