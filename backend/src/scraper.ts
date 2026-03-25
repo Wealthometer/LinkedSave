@@ -87,3 +87,4 @@ export class LinkedInScraper {
 
         const isEmojiOrIcon = (src: string) =>
           /emoji|reaction|reactions|emoticon|like_|clap_|praise_|support|insightful|curious|comment|profile-displayphoto|ghost/.test(
+            src
