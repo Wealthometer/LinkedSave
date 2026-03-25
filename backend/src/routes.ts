@@ -6,3 +6,4 @@ import {
   ExtractResponse,
   SessionRequest,
   SessionResponse,
+  SessionStatusResponse,
