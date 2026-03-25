@@ -24,3 +24,4 @@ export class LinkedInScraper {
     if (this.browser) {
       await this.browser.close();
       this.browser = null;
+    }
