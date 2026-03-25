@@ -44,3 +44,4 @@ export class LinkedInScraper {
     }
 
     return page;
+  }
