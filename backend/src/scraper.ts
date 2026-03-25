@@ -50,3 +50,4 @@ export class LinkedInScraper {
     url: string,
     cookies: LinkedInCookie[]
   ): Promise<{ media: MediaItem[]; title: string }> {
+    await this.launch();
