@@ -134,3 +134,4 @@ export class LinkedInScraper {
           document.querySelectorAll<HTMLImageElement>(sel).forEach(collectImage);
         });
 
+        // Catch-all for large, on-domain images that weren't in targeted selectors
