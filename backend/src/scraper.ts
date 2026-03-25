@@ -115,3 +115,4 @@ export class LinkedInScraper {
             .replace(/(?:shrink|resize)_\d+_\d+/, "shrink_1280_1280");
 
           addIfNew({ type: "image", url: src, fullUrl: full });
+        };
