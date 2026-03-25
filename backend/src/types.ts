@@ -35,3 +35,4 @@ export interface SessionStatusResponse {
 }
 
 export interface LinkedInCookie {
+  name: string;
