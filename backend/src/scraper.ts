@@ -174,3 +174,4 @@ export class LinkedInScraper {
                     })[0];
 
                   if (best?.src) {
+                    addIfNew({
