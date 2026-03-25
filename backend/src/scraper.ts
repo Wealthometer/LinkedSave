@@ -212,3 +212,4 @@ export class LinkedInScraper {
       await this.close();
     }
   }
+}
