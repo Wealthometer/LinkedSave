@@ -208,3 +208,4 @@ export class LinkedInScraper {
 
       return { media, title };
     } finally {
+      await page.close();
