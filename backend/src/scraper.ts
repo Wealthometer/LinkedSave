@@ -102,3 +102,4 @@ export class LinkedInScraper {
             img.getAttribute("src") ||
             img.getAttribute("data-delayed-url") ||
             img.getAttribute("data-src");
+          if (!src || !src.startsWith("http")) return;
