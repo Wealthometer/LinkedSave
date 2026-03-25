@@ -12,3 +12,4 @@ import {
 
 export const router = Router();
 
+let sessionCookies: LinkedInCookie[] = [];
