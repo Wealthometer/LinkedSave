@@ -113,3 +113,4 @@ router.post(
   }
 );
 
+router.get("/session", (_req: Request, res: Response<SessionStatusResponse>) => {
