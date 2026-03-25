@@ -9,3 +9,4 @@ export interface MediaItem {
 }
 
 export interface ExtractRequest {
+  url: string;
