@@ -23,3 +23,4 @@ ENV NODE_ENV=production \
 WORKDIR /app
 
 # Install system dependencies for Chromium
+RUN apt-get update && \
