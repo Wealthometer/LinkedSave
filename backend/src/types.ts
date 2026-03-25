@@ -34,3 +34,4 @@ export interface SessionStatusResponse {
   count: number;
 }
 
+export interface LinkedInCookie {
