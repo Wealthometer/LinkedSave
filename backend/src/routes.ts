@@ -106,3 +106,4 @@ router.post(
   (req: Request<object, SessionResponse, SessionRequest>, res: Response<SessionResponse>) => {
     const { cookies } = req.body;
     if (!Array.isArray(cookies) || cookies.length === 0) {
+      return res.status(400).json({ message: "", error: "cookies array is required" });
