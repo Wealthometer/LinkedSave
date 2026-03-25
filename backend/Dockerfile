@@ -11,3 +11,4 @@ RUN bun install
 # Copy source and build
 COPY tsconfig.json ./tsconfig.json
 COPY src ./src
+RUN npm run build && npm prune --production
