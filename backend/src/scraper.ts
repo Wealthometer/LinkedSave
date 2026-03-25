@@ -207,3 +207,4 @@ export class LinkedInScraper {
       const media: MediaItem[] = rawMedia.map((m, i) => ({ ...m, index: i + 1 }));
 
       return { media, title };
+    } finally {
