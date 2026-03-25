@@ -110,3 +110,4 @@ export class LinkedInScraper {
           const height = img.naturalHeight || img.height || 0;
           if (Math.max(width, height) < 200) return;
 
+          const full = src
