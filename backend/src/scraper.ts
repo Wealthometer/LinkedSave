@@ -106,3 +106,4 @@ export class LinkedInScraper {
           if (!isMediaHost(src)) return;
           if (isEmojiOrIcon(src)) return;
 
+          const width = img.naturalWidth || img.width || 0;
