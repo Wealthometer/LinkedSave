@@ -48,3 +48,4 @@ export class LinkedInScraper {
 
   async extractMedia(
     url: string,
+    cookies: LinkedInCookie[]
