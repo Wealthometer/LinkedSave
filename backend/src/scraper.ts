@@ -129,3 +129,4 @@ export class LinkedInScraper {
           ".feed-shared-carousel__image img",
           ".update-components-carousel img",
         ];
+
