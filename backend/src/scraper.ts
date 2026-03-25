@@ -195,3 +195,4 @@ export class LinkedInScraper {
               vid.getAttribute("src");
 
             if (src && src.startsWith("http")) {
+              addIfNew({ type: "video", url: src, fullUrl: src });
