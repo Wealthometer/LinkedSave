@@ -60,3 +60,4 @@ export class LinkedInScraper {
       await new Promise((r) => setTimeout(r, 2500));
 
       // Scroll to trigger lazy loading
+      await page.evaluate(() => window.scrollBy(0, 600));
