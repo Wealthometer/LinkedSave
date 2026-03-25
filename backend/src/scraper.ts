@@ -6,3 +6,4 @@ const USER_AGENT =
   "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
 
 export class LinkedInScraper {
+  private browser: Browser | null = null;
