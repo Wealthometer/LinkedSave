@@ -80,3 +80,4 @@ export class LinkedInScraper {
           try {
             const host = new URL(src).hostname;
             return host === "media.licdn.com" || host.endsWith(".media.licdn.com");
+          } catch {
