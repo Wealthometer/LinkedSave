@@ -173,3 +173,4 @@ export class LinkedInScraper {
                       return br - ar;
                     })[0];
 
+                  if (best?.src) {
