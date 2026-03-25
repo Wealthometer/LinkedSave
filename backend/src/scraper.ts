@@ -168,3 +168,4 @@ export class LinkedInScraper {
                   const best = parsed
                     .filter((p) => !!p.src)
                     .sort((a, b) => {
+                      const ar = parseInt(a.data?.progressiveResolution || "0");
