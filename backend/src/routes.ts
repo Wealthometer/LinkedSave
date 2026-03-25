@@ -98,3 +98,4 @@ router.get("/download", async (req: Request, res: Response) => {
     console.error("[download] Error:", message);
     res.status(500).json({ error: "Download failed: " + message });
   }
+});
