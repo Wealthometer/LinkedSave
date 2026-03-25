@@ -167,3 +167,4 @@ export class LinkedInScraper {
                 if (parsed.length) {
                   const best = parsed
                     .filter((p) => !!p.src)
+                    .sort((a, b) => {
