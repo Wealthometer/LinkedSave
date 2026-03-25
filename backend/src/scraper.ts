@@ -49,3 +49,4 @@ export class LinkedInScraper {
   async extractMedia(
     url: string,
     cookies: LinkedInCookie[]
+  ): Promise<{ media: MediaItem[]; title: string }> {
