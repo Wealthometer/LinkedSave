@@ -25,3 +25,4 @@ router.post(
   async (req: Request<object, ExtractResponse, ExtractRequest>, res: Response<ExtractResponse>) => {
     const { url } = req.body;
 
+    if (!url || typeof url !== "string") {
