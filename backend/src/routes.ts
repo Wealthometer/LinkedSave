@@ -5,3 +5,4 @@ import {
   ExtractRequest,
   ExtractResponse,
   SessionRequest,
+  SessionResponse,
