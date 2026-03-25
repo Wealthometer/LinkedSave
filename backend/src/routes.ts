@@ -92,3 +92,4 @@ router.get("/download", async (req: Request, res: Response) => {
       res.setHeader("Content-Length", response.headers["content-length"] as string);
     }
 
+    response.data.pipe(res);
