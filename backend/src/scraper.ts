@@ -160,3 +160,4 @@ export class LinkedInScraper {
             if (dataSources) {
               try {
                 const parsed = JSON.parse(dataSources) as Array<{
+                  src: string;
