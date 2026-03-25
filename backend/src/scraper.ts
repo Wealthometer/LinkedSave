@@ -83,3 +83,4 @@ export class LinkedInScraper {
           } catch {
             return false;
           }
+        };
