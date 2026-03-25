@@ -20,3 +20,4 @@ app.use("/api", router);
 app.use(
   (
     err: Error,
+    _req: express.Request,
