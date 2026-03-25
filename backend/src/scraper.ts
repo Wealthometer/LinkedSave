@@ -77,3 +77,4 @@ export class LinkedInScraper {
         };
 
         const isMediaHost = (src: string) => {
+          try {
