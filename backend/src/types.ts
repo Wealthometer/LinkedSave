@@ -6,3 +6,4 @@ export interface MediaItem {
   fullUrl: string;
   quality?: string;
   index: number;
+}
