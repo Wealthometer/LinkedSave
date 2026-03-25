@@ -179,3 +179,4 @@ export class LinkedInScraper {
                       url: best.src,
                       fullUrl: best.src,
                       quality: best.data?.progressiveResolution,
+                    });
