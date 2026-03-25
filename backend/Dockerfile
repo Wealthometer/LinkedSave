@@ -8,3 +8,4 @@ WORKDIR /app
 COPY package*.json ./
 RUN bun install
 
+# Copy source and build
