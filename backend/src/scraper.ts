@@ -95,3 +95,4 @@ export class LinkedInScraper {
           if (!results.find((r) => normalize(r.fullUrl || r.url) === key && r.type === item.type)) {
             results.push(item);
           }
+        };
