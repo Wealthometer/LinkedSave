@@ -64,3 +64,4 @@ router.get("/download", async (req: Request, res: Response) => {
   const { url, filename } = req.query as { url?: string; filename?: string };
 
   if (!url) return res.status(400).json({ error: "url query param is required" });
+
