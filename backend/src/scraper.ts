@@ -91,3 +91,4 @@ export class LinkedInScraper {
           );
 
         const addIfNew = (item: Omit<MediaItem, "index">) => {
+          const key = normalize(item.fullUrl || item.url);
