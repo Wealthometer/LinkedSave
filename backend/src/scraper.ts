@@ -64,3 +64,4 @@ export class LinkedInScraper {
       await new Promise((r) => setTimeout(r, 1000));
 
       const rawMedia = await page.evaluate((): Omit<MediaItem, "index">[] => {
+        const results: Omit<MediaItem, "index">[] = [];
