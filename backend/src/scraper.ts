@@ -97,3 +97,4 @@ export class LinkedInScraper {
           }
         };
 
+        const collectImage = (img: HTMLImageElement) => {
