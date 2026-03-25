@@ -19,3 +19,4 @@ app.use("/api", router);
 
 app.use(
   (
+    err: Error,
