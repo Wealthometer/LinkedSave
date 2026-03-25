@@ -38,3 +38,4 @@ export class LinkedInScraper {
     await page.evaluateOnNewDocument(() => {
       Object.defineProperty(navigator, "webdriver", { get: () => false });
     });
+
