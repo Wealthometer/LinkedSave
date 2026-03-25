@@ -40,3 +40,4 @@ export interface LinkedInCookie {
   domain: string;
   path?: string;
   expires?: number;
+  httpOnly?: boolean;
