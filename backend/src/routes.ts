@@ -68,3 +68,4 @@ router.get("/download", async (req: Request, res: Response) => {
   try {
     const response = await axios.get<NodeJS.ReadableStream>(decodeURIComponent(url), {
       responseType: "stream",
+      headers: {
