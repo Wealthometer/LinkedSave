@@ -24,3 +24,4 @@ router.post(
   "/extract",
   async (req: Request<object, ExtractResponse, ExtractRequest>, res: Response<ExtractResponse>) => {
     const { url } = req.body;
+
