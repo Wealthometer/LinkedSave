@@ -71,3 +71,4 @@ export class LinkedInScraper {
             const u = new URL(url);
             u.search = "";
             return u.toString();
+          } catch {
