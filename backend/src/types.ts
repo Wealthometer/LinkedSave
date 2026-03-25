@@ -13,3 +13,4 @@ export interface ExtractRequest {
 }
 
 export interface ExtractResponse {
+  success: boolean;
