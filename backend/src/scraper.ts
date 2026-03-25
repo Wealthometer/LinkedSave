@@ -57,3 +57,4 @@ export class LinkedInScraper {
       await page.goto(url, { waitUntil: "networkidle2", timeout: 30_000 });
 
       // Let lazy-loaded images settle
+      await new Promise((r) => setTimeout(r, 2500));
