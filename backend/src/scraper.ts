@@ -151,3 +151,4 @@ export class LinkedInScraper {
         const videoSelectors = [
           "video",
           ".feed-shared-linkedin-video video",
+          ".update-components-video video",
