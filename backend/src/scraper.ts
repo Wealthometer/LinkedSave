@@ -101,3 +101,4 @@ export class LinkedInScraper {
           const src =
             img.getAttribute("src") ||
             img.getAttribute("data-delayed-url") ||
+            img.getAttribute("data-src");
