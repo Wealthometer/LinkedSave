@@ -20,3 +20,4 @@ export class LinkedInScraper {
     });
   }
 
+  async close(): Promise<void> {
