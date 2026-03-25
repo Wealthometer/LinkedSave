@@ -135,3 +135,4 @@ export class LinkedInScraper {
         });
 
         // Catch-all for large, on-domain images that weren't in targeted selectors
+        document
