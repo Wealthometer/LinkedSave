@@ -120,3 +120,4 @@ router.get("/session", (_req: Request, res: Response<SessionStatusResponse>) => 
 router.delete("/session", (_req: Request, res: Response<SessionResponse>) => {
   sessionCookies = [];
   res.json({ message: "Session cleared." });
+});
