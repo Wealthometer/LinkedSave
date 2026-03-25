@@ -30,3 +30,4 @@ export class LinkedInScraper {
   private async createPage(cookies: LinkedInCookie[]): Promise<Page> {
     if (!this.browser) throw new Error("Browser not launched");
 
+    const page = await this.browser.newPage();
