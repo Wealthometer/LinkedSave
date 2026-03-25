@@ -17,3 +17,4 @@ let sessionCookies: LinkedInCookie[] = [];
 // GET /api/health
 router.get("/health", (_req: Request, res: Response) => {
   res.json({ ok: true, timestamp: new Date().toISOString() });
+});
