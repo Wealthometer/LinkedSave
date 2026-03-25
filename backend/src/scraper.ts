@@ -117,3 +117,4 @@ export class LinkedInScraper {
           addIfNew({ type: "image", url: src, fullUrl: full });
         };
 
+        const imgSelectors = [
