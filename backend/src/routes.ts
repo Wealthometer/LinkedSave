@@ -84,3 +84,4 @@ router.get("/download", async (req: Request, res: Response) => {
       "_"
     );
 
+    res.setHeader("Content-Disposition", `attachment; filename="${safeFilename}"`);
