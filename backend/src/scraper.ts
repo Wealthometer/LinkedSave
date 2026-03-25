@@ -139,3 +139,4 @@ export class LinkedInScraper {
           .querySelectorAll<HTMLImageElement>("img")
           .forEach((img) => collectImage(img));
 
+        // Background images on divs (common for single-image posts)
