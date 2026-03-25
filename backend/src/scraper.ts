@@ -14,3 +14,4 @@ export class LinkedInScraper {
       args: [
         "--no-sandbox",
         "--disable-setuid-sandbox",
+        "--disable-blink-features=AutomationControlled",
