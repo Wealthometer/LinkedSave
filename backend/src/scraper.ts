@@ -181,3 +181,4 @@ export class LinkedInScraper {
                       quality: best.data?.progressiveResolution,
                     });
                     return;
+                  }
