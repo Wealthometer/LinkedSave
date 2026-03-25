@@ -32,3 +32,4 @@ export interface SessionResponse {
 export interface SessionStatusResponse {
   active: boolean;
   count: number;
+}
