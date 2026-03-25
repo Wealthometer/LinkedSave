@@ -148,3 +148,4 @@ export class LinkedInScraper {
           }
         });
 
+        const videoSelectors = [
