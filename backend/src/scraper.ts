@@ -82,3 +82,4 @@ export class LinkedInScraper {
             return host === "media.licdn.com" || host.endsWith(".media.licdn.com");
           } catch {
             return false;
+          }
