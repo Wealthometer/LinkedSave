@@ -203,3 +203,4 @@ export class LinkedInScraper {
         return results;
       });
 
+      const title = await page.title();
