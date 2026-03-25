@@ -104,3 +104,4 @@ export class LinkedInScraper {
             img.getAttribute("data-src");
           if (!src || !src.startsWith("http")) return;
           if (!isMediaHost(src)) return;
+          if (isEmojiOrIcon(src)) return;
