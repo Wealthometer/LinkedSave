@@ -17,3 +17,4 @@ export class LinkedInScraper {
         "--disable-blink-features=AutomationControlled",
         "--disable-dev-shm-usage",
       ],
+    });
