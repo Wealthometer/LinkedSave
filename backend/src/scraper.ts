@@ -187,3 +187,4 @@ export class LinkedInScraper {
                 // fall through to src checks
               }
             }
+
