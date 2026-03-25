@@ -147,3 +147,4 @@ export class LinkedInScraper {
             addIfNew({ type: "image", url: src, fullUrl: src });
           }
         });
+
