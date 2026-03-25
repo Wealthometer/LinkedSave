@@ -22,3 +22,4 @@ router.get("/health", (_req: Request, res: Response) => {
 // POST /api/extract
 router.post(
   "/extract",
+  async (req: Request<object, ExtractResponse, ExtractRequest>, res: Response<ExtractResponse>) => {
