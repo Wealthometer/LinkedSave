@@ -81,3 +81,4 @@ router.get("/download", async (req: Request, res: Response) => {
     const ext = contentType.includes("video") ? "mp4" : "jpg";
     const safeFilename = (filename || `linkedin-media-${Date.now()}.${ext}`).replace(
       /[^\w._-]/g,
+      "_"
