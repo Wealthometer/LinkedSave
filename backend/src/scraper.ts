@@ -53,3 +53,4 @@ export class LinkedInScraper {
     await this.launch();
     const page = await this.createPage(cookies);
 
+    try {
