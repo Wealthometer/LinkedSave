@@ -39,3 +39,4 @@ router.post(
 
     try {
       const { media, title } = await scraper.extractMedia(url, sessionCookies);
+
