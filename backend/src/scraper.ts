@@ -138,3 +138,4 @@ export class LinkedInScraper {
         document
           .querySelectorAll<HTMLImageElement>("img")
           .forEach((img) => collectImage(img));
+
