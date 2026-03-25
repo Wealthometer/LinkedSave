@@ -51,3 +51,4 @@ export class LinkedInScraper {
     cookies: LinkedInCookie[]
   ): Promise<{ media: MediaItem[]; title: string }> {
     await this.launch();
+    const page = await this.createPage(cookies);
