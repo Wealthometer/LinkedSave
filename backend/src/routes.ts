@@ -114,3 +114,4 @@ router.post(
 );
 
 router.get("/session", (_req: Request, res: Response<SessionStatusResponse>) => {
+  res.json({ active: sessionCookies.length > 0, count: sessionCookies.length });
