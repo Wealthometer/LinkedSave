@@ -20,3 +20,4 @@ export interface ExtractResponse {
   error?: string;
 }
 
+export interface SessionRequest {
