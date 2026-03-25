@@ -24,3 +24,4 @@ export interface SessionRequest {
   cookies: LinkedInCookie[];
 }
 
+export interface SessionResponse {
