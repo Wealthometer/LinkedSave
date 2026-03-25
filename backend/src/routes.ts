@@ -104,3 +104,4 @@ router.get("/download", async (req: Request, res: Response) => {
 router.post(
   "/session",
   (req: Request<object, SessionResponse, SessionRequest>, res: Response<SessionResponse>) => {
+    const { cookies } = req.body;
