@@ -109,3 +109,4 @@ router.post(
       return res.status(400).json({ message: "", error: "cookies array is required" });
     }
     sessionCookies = cookies;
+    return res.json({ message: `Saved ${cookies.length} cookies. Session is now active.` });
