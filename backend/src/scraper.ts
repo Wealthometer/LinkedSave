@@ -36,3 +36,4 @@ export class LinkedInScraper {
 
     // Stealth: mask webdriver flag
     await page.evaluateOnNewDocument(() => {
+      Object.defineProperty(navigator, "webdriver", { get: () => false });
