@@ -154,3 +154,4 @@ export class LinkedInScraper {
           ".update-components-video video",
         ];
 
+        videoSelectors.forEach((sel) => {
