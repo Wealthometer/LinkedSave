@@ -54,3 +54,4 @@ router.post(
     } catch (err: unknown) {
       const message = err instanceof Error ? err.message : "Unknown error";
       console.error("[extract] Error:", message);
+      return res.status(500).json({ success: false, media: [], error: message });
