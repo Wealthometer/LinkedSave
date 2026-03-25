@@ -211,3 +211,4 @@ export class LinkedInScraper {
       await page.close();
       await this.close();
     }
+  }
