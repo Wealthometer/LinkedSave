@@ -183,3 +183,4 @@ export class LinkedInScraper {
                     return;
                   }
                 }
+              } catch (_) {
