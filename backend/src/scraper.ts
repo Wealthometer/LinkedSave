@@ -67,3 +67,4 @@ export class LinkedInScraper {
         const results: Omit<MediaItem, "index">[] = [];
 
         const normalize = (url: string) => {
+          try {
