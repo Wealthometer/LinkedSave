@@ -100,3 +100,4 @@ router.get("/download", async (req: Request, res: Response) => {
   }
 });
 
+// Session endpoints
