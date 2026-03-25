@@ -8,3 +8,4 @@ export interface MediaItem {
   index: number;
 }
 
+export interface ExtractRequest {
