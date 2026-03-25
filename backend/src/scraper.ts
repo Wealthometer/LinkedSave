@@ -146,3 +146,4 @@ export class LinkedInScraper {
           if (src && src.startsWith("http") && isMediaHost(src) && !isEmojiOrIcon(src)) {
             addIfNew({ type: "image", url: src, fullUrl: src });
           }
+        });
