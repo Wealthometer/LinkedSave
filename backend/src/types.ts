@@ -29,3 +29,4 @@ export interface SessionResponse {
   error?: string;
 }
 
+export interface SessionStatusResponse {
