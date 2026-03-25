@@ -4,3 +4,4 @@ FROM node:${NODE_VERSION} AS builder
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 WORKDIR /app
 
+# Install dependencies
