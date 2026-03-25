@@ -93,3 +93,4 @@ router.get("/download", async (req: Request, res: Response) => {
     }
 
     response.data.pipe(res);
+  } catch (err: unknown) {
