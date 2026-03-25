@@ -24,3 +24,4 @@ WORKDIR /app
 
 # Install system dependencies for Chromium
 RUN apt-get update && \
+    apt-get install -y chromium ca-certificates fonts-liberation && \
