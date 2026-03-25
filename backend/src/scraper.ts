@@ -16,3 +16,4 @@ export class LinkedInScraper {
         "--disable-setuid-sandbox",
         "--disable-blink-features=AutomationControlled",
         "--disable-dev-shm-usage",
+      ],
