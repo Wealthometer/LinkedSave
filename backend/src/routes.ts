@@ -14,3 +14,4 @@ export const router = Router();
 
 let sessionCookies: LinkedInCookie[] = [];
 
+// GET /api/health
