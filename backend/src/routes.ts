@@ -56,3 +56,4 @@ router.post(
       console.error("[extract] Error:", message);
       return res.status(500).json({ success: false, media: [], error: message });
     }
+  }
