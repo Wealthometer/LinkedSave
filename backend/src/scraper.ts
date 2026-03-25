@@ -182,3 +182,4 @@ export class LinkedInScraper {
                     });
                     return;
                   }
+                }
