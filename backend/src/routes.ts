@@ -77,3 +77,4 @@ router.get("/download", async (req: Request, res: Response) => {
     });
 
     const contentType =
+      (response.headers["content-type"] as string) || "application/octet-stream";
