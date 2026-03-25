@@ -6,3 +6,4 @@ WORKDIR /app
 
 # Install dependencies
 COPY package*.json ./
+RUN bun install
