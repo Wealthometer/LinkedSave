@@ -99,3 +99,4 @@ export class LinkedInScraper {
 
         const collectImage = (img: HTMLImageElement) => {
           const src =
+            img.getAttribute("src") ||
