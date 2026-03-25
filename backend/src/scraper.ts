@@ -159,3 +159,4 @@ export class LinkedInScraper {
             const dataSources = vid.getAttribute("data-sources");
             if (dataSources) {
               try {
+                const parsed = JSON.parse(dataSources) as Array<{
