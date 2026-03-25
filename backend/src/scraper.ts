@@ -162,3 +162,4 @@ export class LinkedInScraper {
                 const parsed = JSON.parse(dataSources) as Array<{
                   src: string;
                   data?: { progressiveResolution?: string };
+                }>;
