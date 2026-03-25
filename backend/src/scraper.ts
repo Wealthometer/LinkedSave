@@ -123,3 +123,4 @@ export class LinkedInScraper {
           "img.update-components-image__image",
           ".feed-shared-image img",
           ".update-components-image img",
+          ".feed-shared-article__preview-image img",
