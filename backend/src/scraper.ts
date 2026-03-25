@@ -113,3 +113,4 @@ export class LinkedInScraper {
           const full = src
             .replace(/&w=\d+/, "&w=1280")
             .replace(/(?:shrink|resize)_\d+_\d+/, "shrink_1280_1280");
+
