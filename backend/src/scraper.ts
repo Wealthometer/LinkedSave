@@ -177,3 +177,4 @@ export class LinkedInScraper {
                     addIfNew({
                       type: "video",
                       url: best.src,
+                      fullUrl: best.src,
