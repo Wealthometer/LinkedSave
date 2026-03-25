@@ -59,3 +59,4 @@ router.post(
   }
 );
 
+// GET /api/download  (proxy download)
