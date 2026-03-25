@@ -4,3 +4,4 @@ import { LinkedInScraper } from "./scraper";
 import {
   ExtractRequest,
   ExtractResponse,
+  SessionRequest,
