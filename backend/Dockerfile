@@ -8,6 +8,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN bun install
 
+
 # Copy source and build
 COPY tsconfig.json ./tsconfig.json
 COPY src ./src
