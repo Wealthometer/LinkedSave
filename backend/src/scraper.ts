@@ -164,3 +164,4 @@ export class LinkedInScraper {
                   data?: { progressiveResolution?: string };
                 }>;
 
+                if (parsed.length) {
