@@ -199,3 +199,4 @@ export class LinkedInScraper {
             }
           });
         });
+
