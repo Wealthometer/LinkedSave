@@ -188,3 +188,4 @@ export class LinkedInScraper {
               }
             }
 
+            const src =
