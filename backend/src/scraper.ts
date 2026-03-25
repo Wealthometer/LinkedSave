@@ -66,3 +66,4 @@ export class LinkedInScraper {
       const rawMedia = await page.evaluate((): Omit<MediaItem, "index">[] => {
         const results: Omit<MediaItem, "index">[] = [];
 
+        const normalize = (url: string) => {
