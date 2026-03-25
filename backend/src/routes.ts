@@ -41,3 +41,4 @@ router.post(
       const { media, title } = await scraper.extractMedia(url, sessionCookies);
 
       if (media.length === 0) {
+        return res.json({
