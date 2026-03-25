@@ -7,3 +7,4 @@ export interface MediaItem {
   quality?: string;
   index: number;
 }
+
