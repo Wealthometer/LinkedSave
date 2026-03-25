@@ -7,3 +7,4 @@ import {
   SessionRequest,
   SessionResponse,
   SessionStatusResponse,
+  LinkedInCookie,
