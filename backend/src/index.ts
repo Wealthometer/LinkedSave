@@ -16,3 +16,4 @@ app.use(
 app.use(express.json({ limit: "10mb" }));
 
 app.use("/api", router);
+
