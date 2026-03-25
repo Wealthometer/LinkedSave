@@ -35,3 +35,4 @@ router.post(
         .json({ success: false, media: [], error: "URL must be from linkedin.com" });
     }
 
+    const scraper = new LinkedInScraper();
