@@ -72,3 +72,4 @@ export class LinkedInScraper {
             u.search = "";
             return u.toString();
           } catch {
+            return url.split("?")[0];
