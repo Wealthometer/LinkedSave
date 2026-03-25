@@ -198,3 +198,4 @@ export class LinkedInScraper {
               addIfNew({ type: "video", url: src, fullUrl: src });
             }
           });
+        });
