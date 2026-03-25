@@ -107,3 +107,4 @@ export class LinkedInScraper {
           if (isEmojiOrIcon(src)) return;
 
           const width = img.naturalWidth || img.width || 0;
+          const height = img.naturalHeight || img.height || 0;
