@@ -3,3 +3,4 @@ import axios from "axios";
 import { LinkedInScraper } from "./scraper";
 import {
   ExtractRequest,
+  ExtractResponse,
