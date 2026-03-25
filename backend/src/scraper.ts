@@ -130,3 +130,4 @@ export class LinkedInScraper {
           ".update-components-carousel img",
         ];
 
+        imgSelectors.forEach((sel) => {
