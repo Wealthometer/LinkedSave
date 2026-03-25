@@ -18,3 +18,4 @@ export class LinkedInScraper {
         "--disable-dev-shm-usage",
       ],
     });
+  }
