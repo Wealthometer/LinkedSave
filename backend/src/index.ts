@@ -24,3 +24,4 @@ app.use(
     res: express.Response,
     _next: express.NextFunction
   ) => {
+    console.error("[unhandled]", err.message);
