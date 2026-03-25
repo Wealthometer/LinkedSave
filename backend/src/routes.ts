@@ -38,3 +38,4 @@ router.post(
     const scraper = new LinkedInScraper();
 
     try {
+      const { media, title } = await scraper.extractMedia(url, sessionCookies);
