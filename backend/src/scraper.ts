@@ -39,3 +39,4 @@ export class LinkedInScraper {
       Object.defineProperty(navigator, "webdriver", { get: () => false });
     });
 
+    if (cookies.length > 0) {
