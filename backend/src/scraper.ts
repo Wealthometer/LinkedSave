@@ -13,3 +13,4 @@ export class LinkedInScraper {
       headless: true,
       args: [
         "--no-sandbox",
+        "--disable-setuid-sandbox",
