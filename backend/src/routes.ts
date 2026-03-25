@@ -42,3 +42,4 @@ router.post(
 
       if (media.length === 0) {
         return res.json({
+          success: false,
