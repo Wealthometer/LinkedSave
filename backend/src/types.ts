@@ -18,3 +18,4 @@ export interface ExtractResponse {
   title?: string;
   message?: string;
   error?: string;
+}
