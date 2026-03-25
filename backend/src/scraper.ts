@@ -204,3 +204,4 @@ export class LinkedInScraper {
       });
 
       const title = await page.title();
+      const media: MediaItem[] = rawMedia.map((m, i) => ({ ...m, index: i + 1 }));
