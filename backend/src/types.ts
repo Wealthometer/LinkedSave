@@ -33,3 +33,4 @@ export interface SessionStatusResponse {
   active: boolean;
   count: number;
 }
+
