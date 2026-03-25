@@ -43,3 +43,4 @@ export class LinkedInScraper {
       await page.setCookie(...cookies);
     }
 
+    return page;
