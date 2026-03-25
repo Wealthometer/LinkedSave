@@ -153,3 +153,4 @@ export class LinkedInScraper {
           ".feed-shared-linkedin-video video",
           ".update-components-video video",
         ];
+
