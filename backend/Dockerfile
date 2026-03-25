@@ -15,3 +15,4 @@ COPY src ./src
 RUN npm run build && npm prune --production
 
 # Runtime image
+FROM node:${NODE_VERSION}
