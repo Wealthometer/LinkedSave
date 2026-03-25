@@ -14,3 +14,4 @@
     "puppeteer": "^21.0.0"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.17",
