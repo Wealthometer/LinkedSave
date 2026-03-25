@@ -192,3 +192,4 @@ export class LinkedInScraper {
               vid.getAttribute("data-delayed-url") ||
               vid.getAttribute("data-src") ||
               vid.querySelector("source")?.getAttribute("src") ||
+              vid.getAttribute("src");
