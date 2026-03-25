@@ -170,3 +170,4 @@ export class LinkedInScraper {
                     .sort((a, b) => {
                       const ar = parseInt(a.data?.progressiveResolution || "0");
                       const br = parseInt(b.data?.progressiveResolution || "0");
+                      return br - ar;
