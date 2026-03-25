@@ -26,3 +26,4 @@ export interface SessionRequest {
 
 export interface SessionResponse {
   message: string;
+  error?: string;
