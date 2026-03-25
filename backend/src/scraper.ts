@@ -118,3 +118,4 @@ export class LinkedInScraper {
         };
 
         const imgSelectors = [
+          "img.ivm-view-attr__img--centered",
