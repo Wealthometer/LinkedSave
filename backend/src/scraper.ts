@@ -69,3 +69,4 @@ export class LinkedInScraper {
         const normalize = (url: string) => {
           try {
             const u = new URL(url);
+            u.search = "";
