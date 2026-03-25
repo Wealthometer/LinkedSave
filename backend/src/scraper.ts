@@ -189,3 +189,4 @@ export class LinkedInScraper {
             }
 
             const src =
+              vid.getAttribute("data-delayed-url") ||
