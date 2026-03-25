@@ -54,3 +54,4 @@ export class LinkedInScraper {
     const page = await this.createPage(cookies);
 
     try {
+      await page.goto(url, { waitUntil: "networkidle2", timeout: 30_000 });
