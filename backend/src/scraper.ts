@@ -200,3 +200,4 @@ export class LinkedInScraper {
           });
         });
 
+        return results;
