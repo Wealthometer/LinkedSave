@@ -10,3 +10,4 @@ import {
   LinkedInCookie,
 } from "./types";
 
+export const router = Router();
