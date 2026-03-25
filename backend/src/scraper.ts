@@ -33,3 +33,4 @@ export class LinkedInScraper {
     const page = await this.browser.newPage();
     await page.setUserAgent(USER_AGENT);
     await page.setViewport({ width: 1280, height: 800 });
+
