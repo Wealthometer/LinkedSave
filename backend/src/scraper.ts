@@ -84,3 +84,4 @@ export class LinkedInScraper {
             return false;
           }
         };
+
