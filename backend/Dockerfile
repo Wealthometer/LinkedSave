@@ -16,3 +16,4 @@ RUN npm run build && npm prune --production
 
 # Runtime image
 FROM node:${NODE_VERSION}
+ENV NODE_ENV=production \
