@@ -141,3 +141,4 @@ export class LinkedInScraper {
 
         // Background images on divs (common for single-image posts)
         document.querySelectorAll<HTMLElement>("[style*='background-image']").forEach((el) => {
+          const match = el.style.backgroundImage.match(/url\(["']?(.*?)["']?\)/);
