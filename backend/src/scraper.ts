@@ -7,3 +7,4 @@ const USER_AGENT =
 
 export class LinkedInScraper {
   private browser: Browser | null = null;
+
