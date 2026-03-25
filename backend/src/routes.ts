@@ -105,3 +105,4 @@ router.post(
   "/session",
   (req: Request<object, SessionResponse, SessionRequest>, res: Response<SessionResponse>) => {
     const { cookies } = req.body;
+    if (!Array.isArray(cookies) || cookies.length === 0) {
