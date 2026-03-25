@@ -27,3 +27,4 @@ export class LinkedInScraper {
     }
   }
 
+  private async createPage(cookies: LinkedInCookie[]): Promise<Page> {
