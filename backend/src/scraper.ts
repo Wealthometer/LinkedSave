@@ -74,3 +74,4 @@ export class LinkedInScraper {
           } catch {
             return url.split("?")[0];
           }
+        };
