@@ -95,3 +95,4 @@ router.get("/download", async (req: Request, res: Response) => {
     response.data.pipe(res);
   } catch (err: unknown) {
     const message = err instanceof Error ? err.message : "Unknown error";
+    console.error("[download] Error:", message);
