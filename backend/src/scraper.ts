@@ -172,3 +172,4 @@ export class LinkedInScraper {
                       const br = parseInt(b.data?.progressiveResolution || "0");
                       return br - ar;
                     })[0];
+
