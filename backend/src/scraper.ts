@@ -111,3 +111,4 @@ export class LinkedInScraper {
           if (Math.max(width, height) < 200) return;
 
           const full = src
+            .replace(/&w=\d+/, "&w=1280")
