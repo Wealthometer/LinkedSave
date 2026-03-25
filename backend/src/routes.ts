@@ -28,3 +28,4 @@ router.post(
     if (!url || typeof url !== "string") {
       return res.status(400).json({ success: false, media: [], error: "url is required" });
     }
+
