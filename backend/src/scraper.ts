@@ -85,3 +85,4 @@ export class LinkedInScraper {
           }
         };
 
+        const isEmojiOrIcon = (src: string) =>
