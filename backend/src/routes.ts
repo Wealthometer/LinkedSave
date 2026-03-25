@@ -74,3 +74,4 @@ router.get("/download", async (req: Request, res: Response) => {
         Referer: "https://www.linkedin.com/",
       },
       timeout: 30_000,
+    });
