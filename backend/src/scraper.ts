@@ -210,3 +210,4 @@ export class LinkedInScraper {
     } finally {
       await page.close();
       await this.close();
+    }
