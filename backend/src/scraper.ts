@@ -119,3 +119,4 @@ export class LinkedInScraper {
 
         const imgSelectors = [
           "img.ivm-view-attr__img--centered",
+          "img.feed-shared-image__image",
