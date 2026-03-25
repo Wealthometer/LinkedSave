@@ -103,3 +103,4 @@ router.get("/download", async (req: Request, res: Response) => {
 // Session endpoints
 router.post(
   "/session",
+  (req: Request<object, SessionResponse, SessionRequest>, res: Response<SessionResponse>) => {
