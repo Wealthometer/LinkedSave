@@ -90,3 +90,4 @@ export class LinkedInScraper {
             src
           );
 
+        const addIfNew = (item: Omit<MediaItem, "index">) => {
