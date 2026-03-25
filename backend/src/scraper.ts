@@ -171,3 +171,4 @@ export class LinkedInScraper {
                       const ar = parseInt(a.data?.progressiveResolution || "0");
                       const br = parseInt(b.data?.progressiveResolution || "0");
                       return br - ar;
+                    })[0];
