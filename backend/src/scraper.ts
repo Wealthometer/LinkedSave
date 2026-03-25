@@ -9,3 +9,4 @@ export class LinkedInScraper {
   private browser: Browser | null = null;
 
   async launch(): Promise<void> {
+    this.browser = await puppeteer.launch({
