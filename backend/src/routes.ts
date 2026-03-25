@@ -36,3 +36,4 @@ router.post(
     }
 
     const scraper = new LinkedInScraper();
+
