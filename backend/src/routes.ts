@@ -66,3 +66,4 @@ router.get("/download", async (req: Request, res: Response) => {
   if (!url) return res.status(400).json({ error: "url query param is required" });
 
   try {
+    const response = await axios.get<NodeJS.ReadableStream>(decodeURIComponent(url), {
