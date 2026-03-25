@@ -19,3 +19,4 @@ FROM node:${NODE_VERSION}
 ENV NODE_ENV=production \
     PORT=3001 \
     PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
+
