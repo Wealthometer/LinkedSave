@@ -43,3 +43,4 @@ export interface LinkedInCookie {
   httpOnly?: boolean;
   secure?: boolean;
   sameSite?: "Strict" | "Lax" | "None";
+}
