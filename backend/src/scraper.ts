@@ -26,3 +26,4 @@ export class LinkedInScraper {
       this.browser = null;
     }
   }
+
