@@ -23,3 +23,4 @@ export interface ExtractResponse {
 export interface SessionRequest {
   cookies: LinkedInCookie[];
 }
+
