@@ -26,3 +26,4 @@ router.post(
     const { url } = req.body;
 
     if (!url || typeof url !== "string") {
+      return res.status(400).json({ success: false, media: [], error: "url is required" });
