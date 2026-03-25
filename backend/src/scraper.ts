@@ -59,3 +59,4 @@ export class LinkedInScraper {
       // Let lazy-loaded images settle
       await new Promise((r) => setTimeout(r, 2500));
 
+      // Scroll to trigger lazy loading
