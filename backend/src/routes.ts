@@ -50,3 +50,4 @@ router.post(
         });
       }
 
+      return res.json({ success: true, media, title });
