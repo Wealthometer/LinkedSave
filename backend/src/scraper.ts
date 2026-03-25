@@ -22,3 +22,4 @@ export class LinkedInScraper {
 
   async close(): Promise<void> {
     if (this.browser) {
+      await this.browser.close();
