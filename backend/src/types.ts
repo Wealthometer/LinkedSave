@@ -28,3 +28,4 @@ export interface SessionResponse {
   message: string;
   error?: string;
 }
+
