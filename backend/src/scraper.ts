@@ -145,3 +145,4 @@ export class LinkedInScraper {
           const src = match?.[1];
           if (src && src.startsWith("http") && isMediaHost(src) && !isEmojiOrIcon(src)) {
             addIfNew({ type: "image", url: src, fullUrl: src });
+          }
