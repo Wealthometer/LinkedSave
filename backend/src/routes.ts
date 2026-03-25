@@ -89,3 +89,4 @@ router.get("/download", async (req: Request, res: Response) => {
     res.setHeader("Access-Control-Expose-Headers", "Content-Disposition");
 
     if (response.headers["content-length"]) {
+      res.setHeader("Content-Length", response.headers["content-length"] as string);
