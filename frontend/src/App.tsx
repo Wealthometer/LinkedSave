@@ -64,3 +64,4 @@ export default function App() {
       <main className="flex-1 max-w-3xl w-full mx-auto px-4 sm:px-6 py-10 space-y-4">
         {/* Hero */}
         <div className="text-center mb-8 animate-fade-up">
+          <h1 className="font-display text-4xl sm:text-5xl tracking-tight text-ink leading-tight mb-3">
