@@ -49,3 +49,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
                 : "bg-brand-500 text-white"
               }
             `}
+          >
