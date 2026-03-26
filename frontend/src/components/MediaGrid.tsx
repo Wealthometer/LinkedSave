@@ -50,3 +50,4 @@ export function MediaGrid({ media }: Props) {
             Download All
           </button>
         )}
+      </div>
