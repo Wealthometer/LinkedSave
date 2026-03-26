@@ -34,3 +34,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
             className="w-full h-full object-cover"
             loading="lazy"
             onError={(e) => {
+              (e.currentTarget as HTMLImageElement).style.opacity = "0";
