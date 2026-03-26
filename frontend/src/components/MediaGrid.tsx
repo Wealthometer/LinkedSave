@@ -40,3 +40,4 @@ export function MediaGrid({ media }: Props) {
         {media.length > 1 && (
           <button
             onClick={handleDownloadAll}
+            className="
