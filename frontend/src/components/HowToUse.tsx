@@ -27,3 +27,4 @@ export function HowToUse() {
       <p className="text-[11px] font-semibold tracking-widest uppercase text-muted mb-4">
         How to Use
       </p>
+      <ol className="space-y-0">
