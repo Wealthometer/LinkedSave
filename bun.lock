@@ -8,3 +8,8 @@
         "concurrently": "^8.2.2",
       },
     },
+    "backend": {
+      "name": "linkedin-downloader-backend",
+      "version": "1.0.0",
+      "dependencies": {
+        "axios": "^1.6.0",
