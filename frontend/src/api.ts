@@ -17,3 +17,4 @@ export const saveSession = (cookiesJson: string): Promise<{ message: string }> =
   const cookies = JSON.parse(cookiesJson);
   return api.post<{ message: string }>("/session", { cookies }).then((r) => r.data);
 };
+
