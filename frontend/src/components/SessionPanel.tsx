@@ -52,3 +52,4 @@ export function SessionPanel() {
         className="w-full flex items-center justify-between px-6 py-4 text-left hover:bg-canvas transition-colors duration-150"
       >
         <div>
+          <p className="text-[11px] font-semibold tracking-widest uppercase text-muted mb-1">
