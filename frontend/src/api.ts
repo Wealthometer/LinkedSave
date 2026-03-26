@@ -18,3 +18,4 @@ export const saveSession = (cookiesJson: string): Promise<{ message: string }> =
   return api.post<{ message: string }>("/session", { cookies }).then((r) => r.data);
 };
 
+export const clearSession = (): Promise<{ message: string }> =>
