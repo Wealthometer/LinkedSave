@@ -34,3 +34,4 @@ export function HowToUse() {
             className={`flex gap-4 py-3 text-sm text-muted leading-relaxed ${
               i < steps.length - 1 ? "border-b border-border" : ""
             }`}
+          >
