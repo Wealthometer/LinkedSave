@@ -35,3 +35,4 @@ export default function App() {
         setStatus({
           type: "error",
           message:
+            result.message ||
