@@ -8,3 +8,4 @@ const steps = [
     text: "Copy the post URL from your browser's address bar.",
   },
   {
+    num: 3,
