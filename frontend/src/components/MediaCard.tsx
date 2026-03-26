@@ -8,3 +8,4 @@ interface Props {
 }
 
 export function MediaCard({ item, animationDelay = 0 }: Props) {
+  const isVideo = item.type === "video";
