@@ -19,3 +19,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
       style={{ animationDelay: `${animationDelay}ms` }}
     >
       {/* Thumbnail */}
+        {isVideo ? (
