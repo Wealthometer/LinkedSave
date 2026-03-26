@@ -49,3 +49,4 @@ export default function App() {
     } catch {
       setStatus({
         type: "error",
+        message:
