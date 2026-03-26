@@ -72,3 +72,4 @@ export default function App() {
             Paste any LinkedIn post URL and save images or videos directly to your device.
           </p>
         </div>
+
