@@ -40,3 +40,4 @@ export function SessionPanel() {
     await clearSession();
     setActive(false);
     setCookieCount(0);
+    setCookieJson("");
