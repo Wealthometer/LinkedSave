@@ -42,3 +42,4 @@ export function SessionPanel() {
     setCookieCount(0);
     setCookieJson("");
     setFeedback("Session cleared.");
+  };
