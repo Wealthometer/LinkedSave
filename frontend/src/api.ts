@@ -20,3 +20,4 @@ export const saveSession = (cookiesJson: string): Promise<{ message: string }> =
 
 export const clearSession = (): Promise<{ message: string }> =>
   api.delete<{ message: string }>("/session").then((r) => r.data);
+
