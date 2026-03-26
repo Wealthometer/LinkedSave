@@ -72,3 +72,4 @@ export function SessionPanel() {
                 <span className="text-sm text-muted">
                   Not authenticated — public posts only
                 </span>
+              </>
