@@ -46,3 +46,4 @@ export function MediaGrid({ media }: Props) {
               hover:bg-border active:scale-95 transition-all duration-150
             "
           >
+            <Download size={13} strokeWidth={2.5} />
