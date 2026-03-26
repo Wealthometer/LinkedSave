@@ -8,3 +8,4 @@ export function Header() {
         <div className="flex items-center gap-2.5">
           <div className="w-8 h-8 bg-brand-500 rounded-lg flex items-center justify-center shadow-sm">
             <Download size={16} className="text-white" strokeWidth={2.5} />
+          </div>
