@@ -71,3 +71,4 @@ export default function App() {
           <p className="text-muted text-base max-w-md mx-auto leading-relaxed">
             Paste any LinkedIn post URL and save images or videos directly to your device.
           </p>
+        </div>
