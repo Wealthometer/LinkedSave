@@ -28,3 +28,4 @@ Works on Render, Railway, Fly.io, or any VPS that supports Node 18+ with Chromiu
 
 ## Connecting them
 - After the backend is live, set `VITE_API_BASE_URL` in Vercel to `https://your-backend-domain.com/api`.
+- Verify end-to-end by opening the Vercel URL, extracting a post, and confirming downloads work.
