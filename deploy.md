@@ -12,3 +12,4 @@ This project has two parts: a Vite React frontend in `frontend/` and an Express 
 - Set Root Directory to `frontend`.
 - Framework preset: Vite.
 - Build Command: `npm install && npm run build`.
+- Output Directory: `dist`.
