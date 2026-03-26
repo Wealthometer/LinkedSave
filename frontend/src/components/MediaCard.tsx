@@ -36,3 +36,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
             onError={(e) => {
               (e.currentTarget as HTMLImageElement).style.opacity = "0";
             }}
+          />
