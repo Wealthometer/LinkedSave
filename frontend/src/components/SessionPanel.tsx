@@ -73,3 +73,4 @@ export function SessionPanel() {
                   Not authenticated — public posts only
                 </span>
               </>
+            )}
