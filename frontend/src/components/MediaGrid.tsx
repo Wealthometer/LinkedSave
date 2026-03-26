@@ -4,3 +4,4 @@ import { MediaCard } from "./MediaCard";
 import { buildDownloadUrl } from "../api";
 
 interface Props {
+  media: MediaItem[];
