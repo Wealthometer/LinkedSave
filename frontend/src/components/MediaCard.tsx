@@ -26,3 +26,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
             className="w-full h-full object-cover"
             muted
             preload="metadata"
+          />
