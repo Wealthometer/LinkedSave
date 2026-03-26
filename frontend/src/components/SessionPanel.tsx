@@ -82,3 +82,4 @@ export function SessionPanel() {
         />
       </button>
 
+      {open && (
