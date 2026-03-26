@@ -13,3 +13,4 @@ This project has two parts: a Vite React frontend in `frontend/` and an Express 
 - Framework preset: Vite.
 - Build Command: `npm install && npm run build`.
 - Output Directory: `dist`.
+- Environment Variable: `VITE_API_BASE_URL` pointing to your live backend (include the `/api` path).
