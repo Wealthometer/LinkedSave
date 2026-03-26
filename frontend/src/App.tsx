@@ -8,3 +8,4 @@ import { extractMedia } from "./api";
 import { MediaItem, StatusState } from "./types";
 
 export default function App() {
+  const [url, setUrl] = useState("");
