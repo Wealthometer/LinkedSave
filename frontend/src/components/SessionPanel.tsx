@@ -10,3 +10,4 @@ export function SessionPanel() {
   const [feedback, setFeedback] = useState("");
   const [saving, setSaving] = useState(false);
 
+  useEffect(() => {
