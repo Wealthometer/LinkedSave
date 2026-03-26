@@ -76,3 +76,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
             inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg
             bg-success text-white text-xs font-semibold
             hover:bg-emerald-700 active:scale-95 transition-all duration-150
+          "
