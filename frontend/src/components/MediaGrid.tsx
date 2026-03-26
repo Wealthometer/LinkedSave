@@ -15,3 +15,4 @@ export function MediaGrid({ media }: Props) {
       setTimeout(() => {
         const ext = item.type === "video" ? "mp4" : "jpg";
         const filename = `linkedin-${item.type}-${item.index}.${ext}`;
+        const url = buildDownloadUrl(item.fullUrl || item.url, filename);
