@@ -62,3 +62,4 @@ export function SessionPanel() {
             {active ? (
               <>
                 <ShieldCheck size={14} className="text-success" />
+                <span className="text-sm text-success font-medium">
