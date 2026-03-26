@@ -14,3 +14,4 @@ export function SessionPanel() {
     getSessionStatus()
       .then((s) => {
         setActive(s.active);
+        setCookieCount(s.count);
