@@ -17,3 +17,4 @@ export function SessionPanel() {
         setCookieCount(s.count);
       })
       .catch(() => {});
+  }, []);
