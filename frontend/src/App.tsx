@@ -83,3 +83,4 @@ export default function App() {
         />
 
         {/* Results */}
+        {media.length > 0 && <MediaGrid media={media} />}
