@@ -8,3 +8,4 @@ const api = axios.create({
 });
 
 export const extractMedia = (url: string): Promise<ExtractResponse> =>
+  api.post<ExtractResponse>("/extract", { url }).then((r) => r.data);
