@@ -18,3 +18,4 @@ export default function App() {
     if (!trimmed) {
       setStatus({ type: "error", message: "Please paste a LinkedIn post URL." });
       return;
+    }
