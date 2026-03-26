@@ -41,3 +41,4 @@ export function HowToUse() {
             <span>{step.text}</span>
           </li>
         ))}
+      </ol>
