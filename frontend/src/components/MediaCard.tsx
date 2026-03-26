@@ -32,3 +32,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
             src={item.fullUrl || item.url}
             alt={`LinkedIn media ${item.index}`}
             className="w-full h-full object-cover"
+            loading="lazy"
