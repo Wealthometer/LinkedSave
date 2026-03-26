@@ -45,3 +45,4 @@ export function MediaGrid({ media }: Props) {
               border border-border bg-canvas text-ink text-xs font-semibold
               hover:bg-border active:scale-95 transition-all duration-150
             "
+          >
