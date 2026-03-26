@@ -7,3 +7,4 @@ interface Props {
   animationDelay?: number;
 }
 
+export function MediaCard({ item, animationDelay = 0 }: Props) {
