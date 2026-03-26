@@ -6,3 +6,4 @@ export function SessionPanel() {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(false);
   const [cookieCount, setCookieCount] = useState(0);
+  const [cookieJson, setCookieJson] = useState("");
