@@ -56,3 +56,4 @@ export function SessionPanel() {
             Session Cookies
             <span className="ml-2 normal-case tracking-normal font-normal text-muted/70">
               (Optional)
+            </span>
