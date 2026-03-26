@@ -25,3 +25,4 @@ export function SessionPanel() {
     setFeedback("");
     try {
       const res = await saveSession(cookieJson.trim());
+      setActive(true);
