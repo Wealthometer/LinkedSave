@@ -24,3 +24,4 @@ export const clearSession = (): Promise<{ message: string }> =>
 export const buildDownloadUrl = (url: string, filename: string): string => {
   const base = API_BASE.replace(/\/$/, "");
   return `${base}/download?url=${encodeURIComponent(url)}&filename=${encodeURIComponent(filename)}`;
+};
