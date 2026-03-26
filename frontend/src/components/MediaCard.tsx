@@ -15,3 +15,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
 
   return (
     <div
+      className="bg-surface border border-border rounded-xl overflow-hidden shadow-card hover:shadow-card-hover transition-shadow duration-200 animate-fade-up"
