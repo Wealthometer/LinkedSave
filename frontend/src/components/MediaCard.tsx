@@ -78,3 +78,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
             hover:bg-emerald-700 active:scale-95 transition-all duration-150
           "
         >
+          <Download size={12} strokeWidth={2.5} />
