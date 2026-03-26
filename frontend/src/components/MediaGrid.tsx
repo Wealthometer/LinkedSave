@@ -13,3 +13,4 @@ export function MediaGrid({ media }: Props) {
   const handleDownloadAll = () => {
     media.forEach((item, i) => {
       setTimeout(() => {
+        const ext = item.type === "video" ? "mp4" : "jpg";
