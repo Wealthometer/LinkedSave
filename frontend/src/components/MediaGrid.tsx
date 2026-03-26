@@ -58,3 +58,4 @@ export function MediaGrid({ media }: Props) {
           <MediaCard key={`${item.url}-${i}`} item={item} animationDelay={i * 60} />
         ))}
       </div>
+    </div>
