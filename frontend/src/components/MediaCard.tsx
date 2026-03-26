@@ -65,3 +65,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
       </div>
 
       {/* Footer */}
+      <div className="px-3 py-2.5 flex items-center justify-between gap-2">
