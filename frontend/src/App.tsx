@@ -88,3 +88,4 @@ export default function App() {
         {/* Session */}
         <SessionPanel />
 
+        {/* Instructions */}
