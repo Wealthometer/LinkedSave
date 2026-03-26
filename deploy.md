@@ -19,3 +19,4 @@ This project has two parts: a Vite React frontend in `frontend/` and an Express 
 ## Deploy the backend to a real-time host or server
 Works on Render, Railway, Fly.io, or any VPS that supports Node 18+ with Chromium deps.
 
+- Install dependencies: `npm install --workspace=backend`.
