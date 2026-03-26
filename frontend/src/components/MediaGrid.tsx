@@ -34,3 +34,4 @@ export function MediaGrid({ media }: Props) {
           <h2 className="text-base font-semibold text-ink">Media Found</h2>
           <span className="inline-flex items-center justify-center h-5 min-w-5 px-1.5 rounded-full bg-brand-500 text-white text-[11px] font-bold">
             {media.length}
+          </span>
