@@ -23,3 +23,4 @@ export function SessionPanel() {
     if (!cookieJson.trim()) return;
     setSaving(true);
     setFeedback("");
+    try {
