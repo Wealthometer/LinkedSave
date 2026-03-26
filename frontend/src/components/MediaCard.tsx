@@ -28,3 +28,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
             preload="metadata"
           />
         ) : (
+          <img
