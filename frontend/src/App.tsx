@@ -78,3 +78,4 @@ export default function App() {
           url={url}
           loading={loading}
           status={status}
+          onUrlChange={setUrl}
