@@ -7,3 +7,4 @@ interface Props {
   media: MediaItem[];
 }
 
+export function MediaGrid({ media }: Props) {
