@@ -62,3 +62,4 @@ export default function App() {
       <Header />
 
       <main className="flex-1 max-w-3xl w-full mx-auto px-4 sm:px-6 py-10 space-y-4">
+        {/* Hero */}
