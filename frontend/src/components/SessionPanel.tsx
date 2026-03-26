@@ -59,3 +59,4 @@ export function SessionPanel() {
             </span>
           </p>
           <div className="flex items-center gap-2">
+            {active ? (
