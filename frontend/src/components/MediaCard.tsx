@@ -72,3 +72,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
         <a
           href={downloadUrl}
           download={filename}
+          className="
