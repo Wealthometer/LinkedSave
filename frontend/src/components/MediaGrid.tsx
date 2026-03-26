@@ -26,3 +26,4 @@ export function MediaGrid({ media }: Props) {
     });
   };
 
+  return (
