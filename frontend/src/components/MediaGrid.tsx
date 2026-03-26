@@ -24,3 +24,4 @@ export function MediaGrid({ media }: Props) {
         document.body.removeChild(a);
       }, i * 700);
     });
+  };
