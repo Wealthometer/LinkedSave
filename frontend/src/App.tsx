@@ -10,3 +10,4 @@ import { MediaItem, StatusState } from "./types";
 export default function App() {
   const [url, setUrl] = useState("");
   const [loading, setLoading] = useState(false);
+  const [media, setMedia] = useState<MediaItem[]>([]);
