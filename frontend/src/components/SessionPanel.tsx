@@ -71,3 +71,4 @@ export function SessionPanel() {
                 <ShieldOff size={14} className="text-muted" />
                 <span className="text-sm text-muted">
                   Not authenticated — public posts only
+                </span>
