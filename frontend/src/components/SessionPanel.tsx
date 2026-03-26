@@ -83,3 +83,4 @@ export function SessionPanel() {
       </button>
 
       {open && (
+        <div className="px-6 pb-6 border-t border-border">
