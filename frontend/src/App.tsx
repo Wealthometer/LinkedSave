@@ -7,3 +7,4 @@ import { HowToUse } from "./components/HowToUse";
 import { extractMedia } from "./api";
 import { MediaItem, StatusState } from "./types";
 
+export default function App() {
