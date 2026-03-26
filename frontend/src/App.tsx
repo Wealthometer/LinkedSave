@@ -96,3 +96,4 @@ export default function App() {
         LinkedSave is an independent tool. Not affiliated with LinkedIn or Microsoft.
         &nbsp;·&nbsp; Use responsibly and respect content creator rights.
       </footer>
+    </div>
