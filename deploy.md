@@ -21,3 +21,4 @@ Works on Render, Railway, Fly.io, or any VPS that supports Node 18+ with Chromiu
 
 - Install dependencies: `npm install --workspace=backend`.
 - Build: `npm run build --workspace=backend`.
+- Start: `npm run start --workspace=backend` (binds to `PORT`, defaults to 3001).
