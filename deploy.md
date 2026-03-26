@@ -17,3 +17,4 @@ This project has two parts: a Vite React frontend in `frontend/` and an Express 
 - Deploy. The site will be served from Vercel’s CDN; all API calls will go to the backend URL you set.
 
 ## Deploy the backend to a real-time host or server
+Works on Render, Railway, Fly.io, or any VPS that supports Node 18+ with Chromium deps.
