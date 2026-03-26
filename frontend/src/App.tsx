@@ -66,3 +66,4 @@ export default function App() {
         <div className="text-center mb-8 animate-fade-up">
           <h1 className="font-display text-4xl sm:text-5xl tracking-tight text-ink leading-tight mb-3">
             Download LinkedIn<br />
+            <span className="text-brand-500">Photos & Videos</span>
