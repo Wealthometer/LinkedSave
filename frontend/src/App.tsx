@@ -21,3 +21,4 @@ export default function App() {
     }
     if (!trimmed.includes("linkedin.com")) {
       setStatus({ type: "error", message: "URL must be from linkedin.com" });
+      return;
