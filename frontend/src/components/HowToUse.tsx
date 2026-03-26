@@ -28,3 +28,4 @@ export function HowToUse() {
         How to Use
       </p>
       <ol className="space-y-0">
+        {steps.map((step, i) => (
