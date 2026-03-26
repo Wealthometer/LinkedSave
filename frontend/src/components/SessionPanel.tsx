@@ -16,3 +16,4 @@ export function SessionPanel() {
         setActive(s.active);
         setCookieCount(s.count);
       })
+      .catch(() => {});
