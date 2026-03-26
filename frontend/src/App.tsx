@@ -36,3 +36,4 @@ export default function App() {
           type: "error",
           message:
             result.message ||
+            "No media found. Try adding session cookies for private posts.",
