@@ -77,3 +77,4 @@ export function SessionPanel() {
           </div>
         </div>
         <ChevronDown
+          size={18}
