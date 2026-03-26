@@ -82,3 +82,4 @@ export default function App() {
           onExtract={handleExtract}
         />
 
+        {/* Results */}
