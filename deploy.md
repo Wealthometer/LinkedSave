@@ -27,3 +27,4 @@ Works on Render, Railway, Fly.io, or any VPS that supports Node 18+ with Chromiu
 - Ensure the host provides the system libraries Puppeteer needs (Debian/Ubuntu images usually work out of the box; if not, install common chromium libs).
 
 ## Connecting them
+- After the backend is live, set `VITE_API_BASE_URL` in Vercel to `https://your-backend-domain.com/api`.
