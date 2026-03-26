@@ -42,3 +42,4 @@ export function MediaGrid({ media }: Props) {
             onClick={handleDownloadAll}
             className="
               inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg
+              border border-border bg-canvas text-ink text-xs font-semibold
