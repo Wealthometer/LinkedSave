@@ -39,4 +39,5 @@ export function HowToUse() {
               {step.num}
             </span>
             <span>{step.text}</span>
+          </li>
         ))}
