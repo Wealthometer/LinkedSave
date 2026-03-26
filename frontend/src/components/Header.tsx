@@ -10,3 +10,4 @@ export function Header() {
             <Download size={16} className="text-white" strokeWidth={2.5} />
           </div>
           <span className="font-display text-xl tracking-tight text-ink">
+            Linked<span className="text-brand-500">Save</span>
