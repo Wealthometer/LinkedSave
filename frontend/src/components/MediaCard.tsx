@@ -58,3 +58,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
         {item.quality && (
           <div className="absolute top-2 right-2">
             <span className="inline-block px-1.5 py-0.5 bg-black/50 text-white text-[10px] font-medium rounded">
+              {item.quality}
