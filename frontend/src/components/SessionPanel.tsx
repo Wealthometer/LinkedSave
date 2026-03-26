@@ -53,3 +53,4 @@ export function SessionPanel() {
       >
         <div>
           <p className="text-[11px] font-semibold tracking-widest uppercase text-muted mb-1">
+            Session Cookies
