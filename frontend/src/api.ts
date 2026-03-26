@@ -13,3 +13,4 @@ export const extractMedia = (url: string): Promise<ExtractResponse> =>
 export const getSessionStatus = (): Promise<SessionStatusResponse> =>
   api.get<SessionStatusResponse>("/session").then((r) => r.data);
 
+export const saveSession = (cookiesJson: string): Promise<{ message: string }> => {
