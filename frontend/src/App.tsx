@@ -28,3 +28,4 @@ export default function App() {
     setMedia([]);
     setStatus({ type: "loading", message: "Extracting media — this may take a few seconds…" });
 
+    try {
