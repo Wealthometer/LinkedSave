@@ -30,3 +30,4 @@ export function HowToUse() {
       <ol className="space-y-0">
         {steps.map((step, i) => (
           <li
+            key={step.num}
