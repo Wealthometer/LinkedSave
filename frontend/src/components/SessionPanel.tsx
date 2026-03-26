@@ -29,3 +29,4 @@ export function SessionPanel() {
       setFeedback(res.message);
       const parsed = JSON.parse(cookieJson.trim());
       setCookieCount(Array.isArray(parsed) ? parsed.length : 0);
+    } catch (err) {
