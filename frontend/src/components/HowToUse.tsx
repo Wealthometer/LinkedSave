@@ -31,3 +31,4 @@ export function HowToUse() {
         {steps.map((step, i) => (
           <li
             key={step.num}
+            className={`flex gap-4 py-3 text-sm text-muted leading-relaxed ${
