@@ -30,3 +30,4 @@ export function SessionPanel() {
       const parsed = JSON.parse(cookieJson.trim());
       setCookieCount(Array.isArray(parsed) ? parsed.length : 0);
     } catch (err) {
+      setFeedback("Invalid JSON or server error. Check cookie format.");
