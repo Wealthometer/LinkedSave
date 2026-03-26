@@ -26,3 +26,4 @@ export function HowToUse() {
     <div className="bg-surface border border-border rounded-2xl shadow-card p-6 animate-fade-up animate-delay-300">
       <p className="text-[11px] font-semibold tracking-widest uppercase text-muted mb-4">
         How to Use
+      </p>
