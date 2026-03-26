@@ -79,3 +79,4 @@ export default function App() {
           loading={loading}
           status={status}
           onUrlChange={setUrl}
+          onExtract={handleExtract}
