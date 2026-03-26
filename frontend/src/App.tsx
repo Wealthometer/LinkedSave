@@ -50,3 +50,4 @@ export default function App() {
       setStatus({
         type: "error",
         message:
+          "Could not reach the backend. Make sure the server is running on port 3001.",
