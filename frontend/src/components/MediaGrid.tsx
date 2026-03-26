@@ -18,3 +18,4 @@ export function MediaGrid({ media }: Props) {
         const url = buildDownloadUrl(item.fullUrl || item.url, filename);
         const a = document.createElement("a");
         a.href = url;
+        a.download = filename;
