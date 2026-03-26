@@ -57,3 +57,4 @@ export function MediaGrid({ media }: Props) {
         {media.map((item, i) => (
           <MediaCard key={`${item.url}-${i}`} item={item} animationDelay={i * 60} />
         ))}
+      </div>
