@@ -22,3 +22,4 @@ const steps = [
 ];
 
 export function HowToUse() {
+  return (
