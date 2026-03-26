@@ -73,3 +73,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
           href={downloadUrl}
           download={filename}
           className="
+            inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg
