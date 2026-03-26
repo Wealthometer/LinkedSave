@@ -47,3 +47,4 @@ export default function App() {
         message: `Found ${result.media.length} media file${result.media.length > 1 ? "s" : ""}.`,
       });
     } catch {
+      setStatus({
