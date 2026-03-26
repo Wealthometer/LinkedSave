@@ -11,3 +11,4 @@ export function SessionPanel() {
   const [saving, setSaving] = useState(false);
 
   useEffect(() => {
+    getSessionStatus()
