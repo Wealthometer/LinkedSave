@@ -30,3 +30,4 @@ export function MediaGrid({ media }: Props) {
     <div className="bg-surface border border-border rounded-2xl shadow-card p-6 animate-fade-up animate-delay-100">
       {/* Header */}
       <div className="flex items-center justify-between mb-5">
+        <div className="flex items-center gap-2.5">
