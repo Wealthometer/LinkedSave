@@ -21,3 +21,4 @@ export function SessionPanel() {
 
   const handleSave = async () => {
     if (!cookieJson.trim()) return;
+    setSaving(true);
