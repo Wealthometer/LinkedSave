@@ -23,3 +23,4 @@ export function MediaGrid({ media }: Props) {
         a.click();
         document.body.removeChild(a);
       }, i * 700);
+    });
