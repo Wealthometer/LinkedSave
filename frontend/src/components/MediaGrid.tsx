@@ -60,3 +60,4 @@ export function MediaGrid({ media }: Props) {
       </div>
     </div>
   );
+}
