@@ -48,3 +48,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
                 ? "bg-violet-600 text-white"
                 : "bg-brand-500 text-white"
               }
+            `}
