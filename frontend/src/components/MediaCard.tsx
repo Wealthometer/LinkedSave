@@ -56,3 +56,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
         </div>
 
         {item.quality && (
+          <div className="absolute top-2 right-2">
