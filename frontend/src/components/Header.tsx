@@ -12,3 +12,4 @@ export function Header() {
           <span className="font-display text-xl tracking-tight text-ink">
             Linked<span className="text-brand-500">Save</span>
           </span>
+        </div>
