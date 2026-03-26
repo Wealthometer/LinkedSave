@@ -18,3 +18,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
       className="bg-surface border border-border rounded-xl overflow-hidden shadow-card hover:shadow-card-hover transition-shadow duration-200 animate-fade-up"
       style={{ animationDelay: `${animationDelay}ms` }}
     >
+      {/* Thumbnail */}
