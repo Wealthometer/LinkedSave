@@ -18,3 +18,4 @@ export function Header() {
           Free Tool
         </span>
       </div>
+    </header>
