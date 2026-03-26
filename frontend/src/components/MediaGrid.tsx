@@ -52,3 +52,4 @@ export function MediaGrid({ media }: Props) {
         )}
       </div>
 
+      {/* Grid */}
