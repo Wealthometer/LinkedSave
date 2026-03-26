@@ -31,3 +31,4 @@ export function SessionPanel() {
       setCookieCount(Array.isArray(parsed) ? parsed.length : 0);
     } catch (err) {
       setFeedback("Invalid JSON or server error. Check cookie format.");
+    } finally {
