@@ -14,3 +14,4 @@ export default function App() {
   const [status, setStatus] = useState<StatusState>({ type: "idle", message: "" });
 
   const handleExtract = async () => {
+    const trimmed = url.trim();
