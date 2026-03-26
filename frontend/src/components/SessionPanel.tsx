@@ -15,3 +15,4 @@ export function SessionPanel() {
       .then((s) => {
         setActive(s.active);
         setCookieCount(s.count);
+      })
