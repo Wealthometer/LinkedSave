@@ -4,3 +4,4 @@ const steps = [
     text: "Open a LinkedIn post that contains images or a video.",
   },
   {
+    num: 2,
