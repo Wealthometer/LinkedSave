@@ -24,3 +24,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
           <video
             src={item.fullUrl || item.url}
             className="w-full h-full object-cover"
+            muted
