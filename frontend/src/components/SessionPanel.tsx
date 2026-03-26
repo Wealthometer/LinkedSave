@@ -39,3 +39,4 @@ export function SessionPanel() {
   const handleClear = async () => {
     await clearSession();
     setActive(false);
+    setCookieCount(0);
