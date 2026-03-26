@@ -27,3 +27,4 @@ export function MediaGrid({ media }: Props) {
   };
 
   return (
+    <div className="bg-surface border border-border rounded-2xl shadow-card p-6 animate-fade-up animate-delay-100">
