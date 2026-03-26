@@ -7,3 +7,4 @@ const api = axios.create({
   headers: { "Content-Type": "application/json" },
 });
 
+export const extractMedia = (url: string): Promise<ExtractResponse> =>
