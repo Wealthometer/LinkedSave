@@ -22,3 +22,4 @@ export function MediaGrid({ media }: Props) {
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
+      }, i * 700);
