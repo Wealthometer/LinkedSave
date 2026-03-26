@@ -16,3 +16,4 @@ export default function App() {
   const handleExtract = async () => {
     const trimmed = url.trim();
     if (!trimmed) {
+      setStatus({ type: "error", message: "Please paste a LinkedIn post URL." });
