@@ -51,3 +51,4 @@ export default function App() {
         type: "error",
         message:
           "Could not reach the backend. Make sure the server is running on port 3001.",
+      });
