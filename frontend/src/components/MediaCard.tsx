@@ -47,3 +47,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
               ${isVideo
                 ? "bg-violet-600 text-white"
                 : "bg-brand-500 text-white"
+              }
