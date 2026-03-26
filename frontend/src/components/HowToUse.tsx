@@ -42,3 +42,4 @@ export function HowToUse() {
           </li>
         ))}
       </ol>
+    </div>
