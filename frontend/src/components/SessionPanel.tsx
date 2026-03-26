@@ -66,3 +66,4 @@ export function SessionPanel() {
                   Authenticated — {cookieCount} cookies active
                 </span>
               </>
+            ) : (
