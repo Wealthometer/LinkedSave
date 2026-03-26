@@ -16,4 +16,5 @@ export function Header() {
 
         <span className="text-xs font-semibold tracking-widest uppercase text-brand-500 bg-brand-50 px-3 py-1.5 rounded-full">
           Free Tool
+        </span>
       </div>
