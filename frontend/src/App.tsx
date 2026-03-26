@@ -41,3 +41,4 @@ export default function App() {
         return;
       }
 
+      setMedia(result.media);
