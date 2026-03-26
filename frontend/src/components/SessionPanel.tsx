@@ -27,3 +27,4 @@ export function SessionPanel() {
       const res = await saveSession(cookieJson.trim());
       setActive(true);
       setFeedback(res.message);
+      const parsed = JSON.parse(cookieJson.trim());
