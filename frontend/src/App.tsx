@@ -92,3 +92,4 @@ export default function App() {
         <HowToUse />
       </main>
 
+      <footer className="text-center py-6 px-4 border-t border-border text-xs text-muted">
