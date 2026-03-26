@@ -23,3 +23,4 @@ Works on Render, Railway, Fly.io, or any VPS that supports Node 18+ with Chromiu
 - Build: `npm run build --workspace=backend`.
 - Start: `npm run start --workspace=backend` (binds to `PORT`, defaults to 3001).
 - Set env vars `PORT` and `FRONTEND_URL`.
+- Expose the service publicly; confirm `GET /api/health` returns `{ ok: true }`.
