@@ -19,3 +19,4 @@ export default function App() {
       setStatus({ type: "error", message: "Please paste a LinkedIn post URL." });
       return;
     }
+    if (!trimmed.includes("linkedin.com")) {
