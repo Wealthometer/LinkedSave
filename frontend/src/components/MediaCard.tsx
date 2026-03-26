@@ -3,3 +3,4 @@ import { MediaItem } from "../types";
 import { buildDownloadUrl } from "../api";
 
 interface Props {
+  item: MediaItem;
