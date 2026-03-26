@@ -9,3 +9,4 @@ interface Props {
 
 export function MediaCard({ item, animationDelay = 0 }: Props) {
   const isVideo = item.type === "video";
+  const ext = isVideo ? "mp4" : "jpg";
