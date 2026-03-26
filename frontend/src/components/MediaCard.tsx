@@ -14,3 +14,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
   const downloadUrl = buildDownloadUrl(item.fullUrl || item.url, filename);
 
   return (
+    <div
