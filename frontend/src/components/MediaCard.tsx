@@ -70,3 +70,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
           #{item.index}
         </span>
         <a
+          href={downloadUrl}
