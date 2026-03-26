@@ -9,3 +9,4 @@ This project has two parts: a Vite React frontend in `frontend/` and an Express 
 
 ## Deploy the frontend to Vercel (static)
 - Create a new project in Vercel, import this repository.
+- Set Root Directory to `frontend`.
