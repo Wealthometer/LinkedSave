@@ -74,3 +74,4 @@ export default function App() {
         </div>
 
         {/* URL input */}
+        <UrlInput
