@@ -42,3 +42,4 @@ export default function App() {
       }
 
       setMedia(result.media);
+      setStatus({
