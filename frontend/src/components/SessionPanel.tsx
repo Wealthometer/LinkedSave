@@ -36,3 +36,4 @@ export function SessionPanel() {
     }
   };
 
+  const handleClear = async () => {
