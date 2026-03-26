@@ -21,3 +21,4 @@ export function MediaGrid({ media }: Props) {
         a.download = filename;
         document.body.appendChild(a);
         a.click();
+        document.body.removeChild(a);
