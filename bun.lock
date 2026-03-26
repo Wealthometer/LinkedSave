@@ -24,3 +24,7 @@
         "ts-node-dev": "^2.0.0",
         "typescript": "^5.3.2",
       },
+    },
+    "frontend": {
+      "name": "linkedin-downloader-frontend",
+      "version": "1.0.0",
