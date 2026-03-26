@@ -13,3 +13,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
   const filename = `linkedin-${item.type}-${item.index}.${ext}`;
   const downloadUrl = buildDownloadUrl(item.fullUrl || item.url, filename);
 
+  return (
