@@ -15,3 +15,4 @@ const steps = [
     num: 4,
     text: "Click the Download button on any media item to save it.",
   },
+  {
