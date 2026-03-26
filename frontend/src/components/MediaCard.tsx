@@ -4,3 +4,4 @@ import { buildDownloadUrl } from "../api";
 
 interface Props {
   item: MediaItem;
+  animationDelay?: number;
