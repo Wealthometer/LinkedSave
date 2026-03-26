@@ -25,3 +25,4 @@ export function MediaGrid({ media }: Props) {
       }, i * 700);
     });
   };
+
