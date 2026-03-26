@@ -29,3 +29,4 @@ export default function App() {
     setStatus({ type: "loading", message: "Extracting media — this may take a few seconds…" });
 
     try {
+      const result = await extractMedia(trimmed);
