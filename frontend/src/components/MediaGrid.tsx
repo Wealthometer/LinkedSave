@@ -10,3 +10,4 @@ interface Props {
 export function MediaGrid({ media }: Props) {
   if (media.length === 0) return null;
 
+  const handleDownloadAll = () => {
