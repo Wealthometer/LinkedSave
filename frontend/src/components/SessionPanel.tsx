@@ -24,3 +24,4 @@ export function SessionPanel() {
     setSaving(true);
     setFeedback("");
     try {
+      const res = await saveSession(cookieJson.trim());
