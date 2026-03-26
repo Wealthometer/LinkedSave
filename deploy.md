@@ -4,3 +4,4 @@ This project has two parts: a Vite React frontend in `frontend/` and an Express 
 
 ## Environment variables
 - `PORT` (backend): port to listen on, default `3001`.
+- `FRONTEND_URL` (backend): origin allowed by CORS, e.g. `https://your-frontend.com`.
