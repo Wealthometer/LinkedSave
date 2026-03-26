@@ -40,3 +40,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
         )}
 
         {/* Type badge overlay */}
+        <div className="absolute top-2 left-2">
