@@ -44,3 +44,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
           <span
             className={`
               inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-semibold uppercase tracking-wider
+              ${isVideo
