@@ -94,3 +94,4 @@ export default function App() {
 
       <footer className="text-center py-6 px-4 border-t border-border text-xs text-muted">
         LinkedSave is an independent tool. Not affiliated with LinkedIn or Microsoft.
+        &nbsp;·&nbsp; Use responsibly and respect content creator rights.
