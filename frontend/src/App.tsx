@@ -68,3 +68,4 @@ export default function App() {
             Download LinkedIn<br />
             <span className="text-brand-500">Photos & Videos</span>
           </h1>
+          <p className="text-muted text-base max-w-md mx-auto leading-relaxed">
