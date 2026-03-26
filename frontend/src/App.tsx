@@ -34,3 +34,4 @@ export default function App() {
       if (!result.success || result.media.length === 0) {
         setStatus({
           type: "error",
+          message:
