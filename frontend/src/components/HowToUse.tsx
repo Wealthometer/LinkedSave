@@ -12,3 +12,4 @@ const steps = [
     text: 'Paste the URL in the field above and click "Extract".',
   },
   {
+    num: 4,
