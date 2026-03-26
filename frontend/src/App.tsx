@@ -30,3 +30,4 @@ export default function App() {
 
     try {
       const result = await extractMedia(trimmed);
+
