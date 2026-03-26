@@ -86,3 +86,4 @@ export default function App() {
         {media.length > 0 && <MediaGrid media={media} />}
 
         {/* Session */}
+        <SessionPanel />
