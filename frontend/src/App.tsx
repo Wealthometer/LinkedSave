@@ -31,3 +31,4 @@ export default function App() {
     try {
       const result = await extractMedia(trimmed);
 
+      if (!result.success || result.media.length === 0) {
