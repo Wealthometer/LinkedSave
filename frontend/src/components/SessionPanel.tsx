@@ -65,3 +65,4 @@ export function SessionPanel() {
                 <span className="text-sm text-success font-medium">
                   Authenticated — {cookieCount} cookies active
                 </span>
+              </>
