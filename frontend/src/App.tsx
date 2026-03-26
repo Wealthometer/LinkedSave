@@ -11,3 +11,4 @@ export default function App() {
   const [url, setUrl] = useState("");
   const [loading, setLoading] = useState(false);
   const [media, setMedia] = useState<MediaItem[]>([]);
+  const [status, setStatus] = useState<StatusState>({ type: "idle", message: "" });
