@@ -54,3 +54,4 @@ export function SessionPanel() {
         <div>
           <p className="text-[11px] font-semibold tracking-widest uppercase text-muted mb-1">
             Session Cookies
+            <span className="ml-2 normal-case tracking-normal font-normal text-muted/70">
