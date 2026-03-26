@@ -5,3 +5,4 @@ import { MediaGrid } from "./components/MediaGrid";
 import { SessionPanel } from "./components/SessionPanel";
 import { HowToUse } from "./components/HowToUse";
 import { extractMedia } from "./api";
+import { MediaItem, StatusState } from "./types";
