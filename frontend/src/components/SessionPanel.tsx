@@ -64,3 +64,4 @@ export function SessionPanel() {
                 <ShieldCheck size={14} className="text-success" />
                 <span className="text-sm text-success font-medium">
                   Authenticated — {cookieCount} cookies active
+                </span>
