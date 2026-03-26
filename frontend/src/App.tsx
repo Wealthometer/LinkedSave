@@ -77,3 +77,4 @@ export default function App() {
         <UrlInput
           url={url}
           loading={loading}
+          status={status}
