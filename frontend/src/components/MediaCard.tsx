@@ -52,3 +52,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
           >
             {isVideo ? <Video size={10} /> : <Image size={10} />}
             {item.type}
+          </span>
