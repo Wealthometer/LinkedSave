@@ -81,3 +81,4 @@ export default function App() {
           onUrlChange={setUrl}
           onExtract={handleExtract}
         />
+
