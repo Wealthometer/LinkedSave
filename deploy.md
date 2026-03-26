@@ -16,3 +16,4 @@ This project has two parts: a Vite React frontend in `frontend/` and an Express 
 - Environment Variable: `VITE_API_BASE_URL` pointing to your live backend (include the `/api` path).
 - Deploy. The site will be served from Vercel’s CDN; all API calls will go to the backend URL you set.
 
+## Deploy the backend to a real-time host or server
