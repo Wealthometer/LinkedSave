@@ -38,3 +38,4 @@ export function MediaGrid({ media }: Props) {
         </div>
 
         {media.length > 1 && (
+          <button
