@@ -91,3 +91,4 @@ export default function App() {
         {/* Instructions */}
         <HowToUse />
       </main>
+
