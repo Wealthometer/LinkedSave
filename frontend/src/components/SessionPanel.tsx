@@ -48,3 +48,4 @@ export function SessionPanel() {
     <div className="bg-surface border border-border rounded-2xl shadow-card overflow-hidden animate-fade-up animate-delay-200">
       {/* Trigger row */}
       <button
+        onClick={() => setOpen((o) => !o)}
