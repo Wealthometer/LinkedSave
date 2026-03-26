@@ -34,3 +34,4 @@ export function SessionPanel() {
     } finally {
       setSaving(false);
     }
+  };
