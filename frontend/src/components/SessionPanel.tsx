@@ -33,3 +33,4 @@ export function SessionPanel() {
       setFeedback("Invalid JSON or server error. Check cookie format.");
     } finally {
       setSaving(false);
+    }
