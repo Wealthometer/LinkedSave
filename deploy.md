@@ -8,3 +8,4 @@ This project has two parts: a Vite React frontend in `frontend/` and an Express 
 - `VITE_API_BASE_URL` (frontend build time): full URL to the backend API, e.g. `https://your-backend.com/api`.
 
 ## Deploy the frontend to Vercel (static)
+- Create a new project in Vercel, import this repository.
