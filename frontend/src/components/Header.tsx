@@ -6,3 +6,4 @@ export function Header() {
       <div className="max-w-3xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2.5">
+          <div className="w-8 h-8 bg-brand-500 rounded-lg flex items-center justify-center shadow-sm">
