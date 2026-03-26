@@ -12,3 +12,4 @@ export function MediaGrid({ media }: Props) {
 
   const handleDownloadAll = () => {
     media.forEach((item, i) => {
+      setTimeout(() => {
