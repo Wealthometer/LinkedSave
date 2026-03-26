@@ -21,3 +21,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
       {/* Thumbnail */}
       <div className="relative bg-stone-100 aspect-video overflow-hidden">
         {isVideo ? (
+          <video
