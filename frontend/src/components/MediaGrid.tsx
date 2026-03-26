@@ -48,3 +48,4 @@ export function MediaGrid({ media }: Props) {
           >
             <Download size={13} strokeWidth={2.5} />
             Download All
+          </button>
