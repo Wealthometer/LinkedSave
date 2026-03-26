@@ -13,3 +13,4 @@ export default function App() {
   const [media, setMedia] = useState<MediaItem[]>([]);
   const [status, setStatus] = useState<StatusState>({ type: "idle", message: "" });
 
+  const handleExtract = async () => {
