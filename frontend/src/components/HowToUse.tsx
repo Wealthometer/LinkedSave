@@ -17,3 +17,4 @@ const steps = [
   },
   {
     num: 5,
+    text: "For private or login-only posts, add your session cookies via the panel above.",
