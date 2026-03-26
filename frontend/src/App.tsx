@@ -76,3 +76,4 @@ export default function App() {
         {/* URL input */}
         <UrlInput
           url={url}
+          loading={loading}
