@@ -80,3 +80,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
         >
           <Download size={12} strokeWidth={2.5} />
           Download
+        </a>
