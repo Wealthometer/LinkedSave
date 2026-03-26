@@ -63,3 +63,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
           </div>
         )}
       </div>
+
