@@ -12,3 +12,4 @@ export function SessionPanel() {
 
   useEffect(() => {
     getSessionStatus()
+      .then((s) => {
