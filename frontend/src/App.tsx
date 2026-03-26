@@ -32,3 +32,4 @@ export default function App() {
       const result = await extractMedia(trimmed);
 
       if (!result.success || result.media.length === 0) {
+        setStatus({
