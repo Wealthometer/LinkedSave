@@ -80,3 +80,4 @@ export default function App() {
           status={status}
           onUrlChange={setUrl}
           onExtract={handleExtract}
+        />
