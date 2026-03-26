@@ -36,3 +36,4 @@ export function MediaGrid({ media }: Props) {
             {media.length}
           </span>
         </div>
+
