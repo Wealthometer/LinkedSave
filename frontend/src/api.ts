@@ -22,3 +22,4 @@ export const clearSession = (): Promise<{ message: string }> =>
   api.delete<{ message: string }>("/session").then((r) => r.data);
 
 export const buildDownloadUrl = (url: string, filename: string): string => {
+  const base = API_BASE.replace(/\/$/, "");
