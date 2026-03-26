@@ -14,3 +14,4 @@ export function MediaGrid({ media }: Props) {
     media.forEach((item, i) => {
       setTimeout(() => {
         const ext = item.type === "video" ? "mp4" : "jpg";
+        const filename = `linkedin-${item.type}-${item.index}.${ext}`;
