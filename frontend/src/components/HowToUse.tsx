@@ -35,3 +35,4 @@ export function HowToUse() {
               i < steps.length - 1 ? "border-b border-border" : ""
             }`}
           >
+            <span className="w-6 h-6 shrink-0 rounded-full bg-brand-500 text-white text-[11px] font-bold flex items-center justify-center mt-0.5">
