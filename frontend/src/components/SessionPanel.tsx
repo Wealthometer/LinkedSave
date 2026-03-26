@@ -61,3 +61,4 @@ export function SessionPanel() {
           <div className="flex items-center gap-2">
             {active ? (
               <>
+                <ShieldCheck size={14} className="text-success" />
