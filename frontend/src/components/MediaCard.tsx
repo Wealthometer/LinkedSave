@@ -69,3 +69,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
         <span className="text-xs text-muted font-medium">
           #{item.index}
         </span>
+        <a
