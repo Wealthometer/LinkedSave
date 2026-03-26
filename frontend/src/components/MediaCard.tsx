@@ -30,3 +30,4 @@ export function MediaCard({ item, animationDelay = 0 }: Props) {
         ) : (
           <img
             src={item.fullUrl || item.url}
+            alt={`LinkedIn media ${item.index}`}
