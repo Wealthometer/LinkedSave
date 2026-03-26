@@ -19,3 +19,4 @@ export function SessionPanel() {
       .catch(() => {});
   }, []);
 
+  const handleSave = async () => {
