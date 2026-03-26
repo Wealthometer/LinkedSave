@@ -97,3 +97,4 @@ export default function App() {
         &nbsp;·&nbsp; Use responsibly and respect content creator rights.
       </footer>
     </div>
+  );
