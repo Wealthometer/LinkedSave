@@ -49,3 +49,4 @@ export function SessionPanel() {
       {/* Trigger row */}
       <button
         onClick={() => setOpen((o) => !o)}
+        className="w-full flex items-center justify-between px-6 py-4 text-left hover:bg-canvas transition-colors duration-150"
