@@ -20,3 +20,4 @@ export function MediaGrid({ media }: Props) {
         a.href = url;
         a.download = filename;
         document.body.appendChild(a);
+        a.click();
