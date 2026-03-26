@@ -15,3 +15,4 @@ export default function App() {
 
   const handleExtract = async () => {
     const trimmed = url.trim();
+    if (!trimmed) {
