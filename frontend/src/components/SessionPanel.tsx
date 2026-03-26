@@ -18,3 +18,4 @@ export function SessionPanel() {
       })
       .catch(() => {});
   }, []);
+
