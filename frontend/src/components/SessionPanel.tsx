@@ -80,3 +80,4 @@ export function SessionPanel() {
           size={18}
           className={`text-muted transition-transform duration-200 ${open ? "rotate-180" : ""}`}
         />
+
