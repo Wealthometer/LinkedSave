@@ -8,3 +8,4 @@ interface Props {
 const config = {
   idle:    { icon: null, className: "hidden" },
   loading: {
+    icon: <Loader2 size={16} className="animate-spin-slow shrink-0" />,
