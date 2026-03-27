@@ -136,6 +136,7 @@ export function SessionPanel() {
                 disabled:opacity-50 disabled:cursor-not-allowed disabled:active:scale-100
               "
             >
+              <Save size={14} />
               {saving ? "Saving…" : "Save Session"}
                   border border-border bg-canvas text-ink text-sm font-semibold
             )}
