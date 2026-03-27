@@ -52,3 +52,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
             <Loader2 size={16} className="animate-spin-slow" />
           ) : (
             <Search size={16} strokeWidth={2.5} />
+          )}
