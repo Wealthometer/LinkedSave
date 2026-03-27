@@ -31,3 +31,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
           spellCheck={false}
           autoComplete="off"
           className="
+            flex-1 h-12 px-4 rounded-xl border border-border bg-canvas text-ink text-sm
