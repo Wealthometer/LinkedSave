@@ -119,4 +119,5 @@ export function SessionPanel() {
               disabled={saving || !cookieJson.trim()}
               className="
                 flex items-center gap-1.5 px-4 py-2 rounded-lg
+                hover:bg-brand-600 active:scale-95 transition-all duration-150
             >
