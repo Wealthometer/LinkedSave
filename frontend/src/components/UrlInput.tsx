@@ -6,3 +6,4 @@ interface Props {
   url: string;
   loading: boolean;
   status: StatusState;
+  onUrlChange: (v: string) => void;
