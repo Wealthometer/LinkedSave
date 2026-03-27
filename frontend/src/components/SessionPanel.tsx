@@ -94,6 +94,7 @@ export function SessionPanel() {
             </a>{" "}
             browser extension (Export → JSON), then paste the JSON below.
           </p>
+
           <textarea
             value={cookieJson}
             onChange={(e) => setCookieJson(e.target.value)}
