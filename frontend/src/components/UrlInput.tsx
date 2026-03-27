@@ -27,3 +27,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
           value={url}
           onChange={(e) => onUrlChange(e.target.value)}
           onKeyDown={handleKey}
+          placeholder="https://www.linkedin.com/posts/username_..."
