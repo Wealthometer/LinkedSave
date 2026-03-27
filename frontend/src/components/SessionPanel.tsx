@@ -139,6 +139,7 @@ export function SessionPanel() {
               <Save size={14} />
               {saving ? "Saving…" : "Save Session"}
             </button>
+
                   border border-border bg-canvas text-ink text-sm font-semibold
             )}
   );
