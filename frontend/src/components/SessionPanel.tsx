@@ -85,6 +85,7 @@ export function SessionPanel() {
       {open && (
         <div className="px-6 pb-6 border-t border-border">
           <p className="text-sm text-muted leading-relaxed mt-4 mb-3">
+            Some LinkedIn posts require login to view. Export your cookies from LinkedIn
             using the{" "}
             <a
               href="https://cookie-editor.com/"
