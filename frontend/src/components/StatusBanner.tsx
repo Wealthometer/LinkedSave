@@ -30,3 +30,4 @@ export function StatusBanner({ status }: Props) {
       className={`mt-3 items-center gap-2.5 rounded-lg px-4 py-3 text-sm font-medium animate-fade-up ${className}`}
     >
       {icon}
+      <span>{status.message}</span>
