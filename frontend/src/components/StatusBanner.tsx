@@ -10,3 +10,4 @@ const config = {
   loading: {
     icon: <Loader2 size={16} className="animate-spin-slow shrink-0" />,
     className: "flex bg-brand-50 text-brand-500 border border-brand-100",
+  },
