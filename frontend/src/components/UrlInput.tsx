@@ -12,3 +12,4 @@ interface Props {
 
 export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props) {
   const handleKey = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === "Enter") onExtract();
