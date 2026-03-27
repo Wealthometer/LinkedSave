@@ -105,3 +105,4 @@ export function SessionPanel() {
               mb-3
           />
 
+          {feedback && (
