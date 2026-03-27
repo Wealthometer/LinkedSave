@@ -87,3 +87,4 @@ export function SessionPanel() {
           <p className="text-sm text-muted leading-relaxed mt-4 mb-3">
             using the{" "}
             <a
+              href="https://cookie-editor.com/"
