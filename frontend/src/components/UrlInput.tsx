@@ -26,3 +26,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
           type="url"
           value={url}
           onChange={(e) => onUrlChange(e.target.value)}
+          onKeyDown={handleKey}
