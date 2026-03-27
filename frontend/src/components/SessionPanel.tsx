@@ -97,3 +97,4 @@ export function SessionPanel() {
           <textarea
             value={cookieJson}
             onChange={(e) => setCookieJson(e.target.value)}
+            rows={5}
