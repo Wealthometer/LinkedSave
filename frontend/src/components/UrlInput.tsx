@@ -20,3 +20,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
       <p className="text-[11px] font-semibold tracking-widest uppercase text-muted mb-3">
         Post URL
       </p>
+
