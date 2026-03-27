@@ -26,3 +26,4 @@ export function StatusBanner({ status }: Props) {
   if (status.type === "idle") return null;
 
   return (
+    <div
