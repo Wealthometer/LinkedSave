@@ -55,3 +55,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
           )}
           {loading ? "Extracting…" : "Extract"}
         </button>
+      </div>
