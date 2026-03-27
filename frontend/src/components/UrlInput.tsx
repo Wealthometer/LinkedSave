@@ -44,3 +44,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
             h-12 px-5 rounded-xl bg-brand-500 text-white text-sm font-semibold
             flex items-center gap-2 whitespace-nowrap shrink-0
             transition-all duration-150
+            hover:bg-brand-600 active:scale-95
