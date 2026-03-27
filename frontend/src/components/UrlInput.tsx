@@ -8,3 +8,4 @@ interface Props {
   status: StatusState;
   onUrlChange: (v: string) => void;
   onExtract: () => void;
+}
