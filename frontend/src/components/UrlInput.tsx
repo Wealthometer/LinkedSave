@@ -58,3 +58,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
       </div>
 
       <StatusBanner status={status} />
+    </div>
