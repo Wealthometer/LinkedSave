@@ -110,6 +110,7 @@ export function SessionPanel() {
                 feedback.toLowerCase().includes("error") || feedback.toLowerCase().includes("invalid")
                   ? "text-danger"
                   : "text-success"
+              }`}
             >
               {feedback}
             </p>
