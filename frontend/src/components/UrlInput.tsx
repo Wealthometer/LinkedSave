@@ -54,3 +54,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
             <Search size={16} strokeWidth={2.5} />
           )}
           {loading ? "Extracting…" : "Extract"}
+        </button>
