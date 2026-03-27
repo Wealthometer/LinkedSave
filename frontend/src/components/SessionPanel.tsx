@@ -94,3 +94,4 @@ export function SessionPanel() {
             </a>{" "}
             browser extension (Export → JSON), then paste the JSON below.
           </p>
+          <textarea
