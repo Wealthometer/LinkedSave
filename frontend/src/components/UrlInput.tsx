@@ -21,3 +21,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
         Post URL
       </p>
 
+      <div className="flex gap-2.5">
