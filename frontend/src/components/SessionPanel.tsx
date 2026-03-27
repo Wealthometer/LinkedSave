@@ -101,3 +101,4 @@ export function SessionPanel() {
             className="
               w-full rounded-xl border border-border bg-canvas p-3
               transition-all duration-150
+              focus:border-brand-500 focus:bg-surface focus:ring-2 focus:ring-brand-100
