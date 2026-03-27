@@ -140,6 +140,7 @@ export function SessionPanel() {
               {saving ? "Saving…" : "Save Session"}
             </button>
 
+            {active && (
                   border border-border bg-canvas text-ink text-sm font-semibold
             )}
   );
