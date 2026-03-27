@@ -110,4 +110,5 @@ export function SessionPanel() {
                   ? "text-danger"
                   : "text-success"
             >
+            </p>
             >
