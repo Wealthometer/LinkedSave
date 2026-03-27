@@ -118,4 +118,5 @@ export function SessionPanel() {
             <button
               disabled={saving || !cookieJson.trim()}
               className="
+                flex items-center gap-1.5 px-4 py-2 rounded-lg
             >
