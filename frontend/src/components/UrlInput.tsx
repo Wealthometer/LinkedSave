@@ -47,3 +47,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
             hover:bg-brand-600 active:scale-95
             disabled:opacity-50 disabled:cursor-not-allowed disabled:active:scale-100
           "
+        >
