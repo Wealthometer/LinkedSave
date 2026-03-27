@@ -106,6 +106,7 @@ export function SessionPanel() {
           />
 
           {feedback && (
+            <p
               className={`text-xs font-medium mb-3 ${
                 feedback.toLowerCase().includes("error") || feedback.toLowerCase().includes("invalid")
                   ? "text-danger"
