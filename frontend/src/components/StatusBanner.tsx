@@ -3,3 +3,4 @@ import { StatusState } from "../types";
 
 interface Props {
   status: StatusState;
+}
