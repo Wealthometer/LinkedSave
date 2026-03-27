@@ -100,3 +100,4 @@ export function SessionPanel() {
             rows={5}
             className="
               w-full rounded-xl border border-border bg-canvas p-3
+              transition-all duration-150
