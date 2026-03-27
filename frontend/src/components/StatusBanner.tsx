@@ -21,3 +21,4 @@ const config = {
   },
 };
 
+export function StatusBanner({ status }: Props) {
