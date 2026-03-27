@@ -19,3 +19,4 @@ const config = {
     icon: <AlertCircle size={16} className="shrink-0" />,
     className: "flex bg-red-50 text-danger border border-red-100",
   },
+};
