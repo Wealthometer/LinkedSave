@@ -138,3 +138,4 @@ export function SessionPanel() {
             >
               {saving ? "Saving…" : "Save Session"}
                   border border-border bg-canvas text-ink text-sm font-semibold
+  );
