@@ -151,5 +151,6 @@ export function SessionPanel() {
             )}
         </div>
       )}
+    </div>
   );
 }
