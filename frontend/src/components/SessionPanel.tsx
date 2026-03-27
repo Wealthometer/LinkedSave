@@ -141,6 +141,7 @@ export function SessionPanel() {
             </button>
 
             {active && (
+                onClick={handleClear}
                   border border-border bg-canvas text-ink text-sm font-semibold
             )}
   );
