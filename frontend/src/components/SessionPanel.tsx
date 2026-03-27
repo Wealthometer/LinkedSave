@@ -86,3 +86,4 @@ export function SessionPanel() {
         <div className="px-6 pb-6 border-t border-border">
           <p className="text-sm text-muted leading-relaxed mt-4 mb-3">
             using the{" "}
+            <a
