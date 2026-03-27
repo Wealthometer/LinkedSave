@@ -88,6 +88,7 @@ export function SessionPanel() {
             using the{" "}
             <a
               href="https://cookie-editor.com/"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-brand-500 hover:underline"
             >
