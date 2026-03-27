@@ -22,3 +22,4 @@ const config = {
 };
 
 export function StatusBanner({ status }: Props) {
+  const { icon, className } = config[status.type];
