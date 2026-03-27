@@ -10,3 +10,4 @@ interface Props {
   onExtract: () => void;
 }
 
+export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props) {
