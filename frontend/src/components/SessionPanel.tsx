@@ -82,6 +82,7 @@ export function SessionPanel() {
         />
       </button>
 
+      {/* Collapsible body */}
       {open && (
         <div className="px-6 pb-6 border-t border-border">
           <p className="text-sm text-muted leading-relaxed mt-4 mb-3">
