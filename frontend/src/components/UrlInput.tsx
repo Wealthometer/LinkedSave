@@ -9,3 +9,4 @@ interface Props {
   onUrlChange: (v: string) => void;
   onExtract: () => void;
 }
+
