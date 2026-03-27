@@ -16,3 +16,4 @@ const config = {
     className: "flex bg-emerald-50 text-success border border-emerald-100",
   },
   error: {
+    icon: <AlertCircle size={16} className="shrink-0" />,
