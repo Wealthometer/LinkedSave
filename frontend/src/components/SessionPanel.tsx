@@ -88,3 +88,4 @@ export function SessionPanel() {
             using the{" "}
             <a
               href="https://cookie-editor.com/"
+              rel="noopener noreferrer"
