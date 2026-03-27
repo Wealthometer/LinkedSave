@@ -33,3 +33,4 @@ export function StatusBanner({ status }: Props) {
       <span>{status.message}</span>
     </div>
   );
+}
