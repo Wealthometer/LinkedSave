@@ -30,3 +30,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
           placeholder="https://www.linkedin.com/posts/username_..."
           spellCheck={false}
           autoComplete="off"
+          className="
