@@ -41,3 +41,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
           onClick={onExtract}
           disabled={loading}
           className="
+            h-12 px-5 rounded-xl bg-brand-500 text-white text-sm font-semibold
