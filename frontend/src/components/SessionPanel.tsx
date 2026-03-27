@@ -116,6 +116,7 @@ export function SessionPanel() {
 
           <div className="flex gap-2">
             <button
+              onClick={handleSave}
               disabled={saving || !cookieJson.trim()}
               className="
                 flex items-center gap-1.5 px-4 py-2 rounded-lg
