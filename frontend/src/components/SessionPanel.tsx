@@ -149,4 +149,5 @@ export function SessionPanel() {
                 <Trash2 size={14} />
                 Clear
             )}
+        </div>
   );
