@@ -97,6 +97,7 @@ export function SessionPanel() {
           <textarea
             value={cookieJson}
             onChange={(e) => setCookieJson(e.target.value)}
+            placeholder='[{"name":"li_at","value":"AQE...","domain":".linkedin.com",...}]'
             rows={5}
             className="
               w-full rounded-xl border border-border bg-canvas p-3
