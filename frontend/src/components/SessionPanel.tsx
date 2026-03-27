@@ -91,6 +91,7 @@ export function SessionPanel() {
               rel="noopener noreferrer"
               className="text-brand-500 hover:underline"
             >
+              Cookie-Editor
             </a>{" "}
             browser extension (Export → JSON), then paste the JSON below.
           </p>
