@@ -45,3 +45,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
             flex items-center gap-2 whitespace-nowrap shrink-0
             transition-all duration-150
             hover:bg-brand-600 active:scale-95
+            disabled:opacity-50 disabled:cursor-not-allowed disabled:active:scale-100
