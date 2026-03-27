@@ -7,3 +7,4 @@ interface Props {
 
 const config = {
   idle:    { icon: null, className: "hidden" },
+  loading: {
