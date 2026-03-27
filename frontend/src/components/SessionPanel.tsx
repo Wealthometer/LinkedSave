@@ -109,3 +109,4 @@ export function SessionPanel() {
               className={`text-xs font-medium mb-3 ${
                   ? "text-danger"
                   : "text-success"
+            >
