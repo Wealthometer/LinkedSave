@@ -20,3 +20,4 @@ const config = {
     className: "flex bg-red-50 text-danger border border-red-100",
   },
 };
+
