@@ -37,3 +37,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
             focus:border-brand-500 focus:bg-surface focus:ring-2 focus:ring-brand-100
           "
         />
+        <button
