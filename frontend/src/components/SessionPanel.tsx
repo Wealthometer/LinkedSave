@@ -92,3 +92,4 @@ export function SessionPanel() {
               className="text-brand-500 hover:underline"
             >
             </a>{" "}
+            browser extension (Export → JSON), then paste the JSON below.
