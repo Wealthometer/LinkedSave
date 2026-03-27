@@ -25,3 +25,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
         <input
           type="url"
           value={url}
+          onChange={(e) => onUrlChange(e.target.value)}
