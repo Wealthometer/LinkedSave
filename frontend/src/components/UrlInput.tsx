@@ -16,3 +16,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
   };
 
   return (
+    <div className="bg-surface border border-border rounded-2xl shadow-card p-6 animate-fade-up">
