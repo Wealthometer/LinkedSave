@@ -19,3 +19,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
     <div className="bg-surface border border-border rounded-2xl shadow-card p-6 animate-fade-up">
       <p className="text-[11px] font-semibold tracking-widest uppercase text-muted mb-3">
         Post URL
+      </p>
