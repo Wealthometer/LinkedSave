@@ -38,3 +38,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
           "
         />
         <button
+          onClick={onExtract}
