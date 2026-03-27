@@ -29,3 +29,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
           onKeyDown={handleKey}
           placeholder="https://www.linkedin.com/posts/username_..."
           spellCheck={false}
+          autoComplete="off"
