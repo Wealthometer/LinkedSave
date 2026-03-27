@@ -98,3 +98,4 @@ export function SessionPanel() {
             value={cookieJson}
             onChange={(e) => setCookieJson(e.target.value)}
             rows={5}
+            className="
