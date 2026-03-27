@@ -90,3 +90,4 @@ export function SessionPanel() {
               href="https://cookie-editor.com/"
               rel="noopener noreferrer"
               className="text-brand-500 hover:underline"
+            >
