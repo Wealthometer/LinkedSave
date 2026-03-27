@@ -113,4 +113,5 @@ export function SessionPanel() {
             </p>
 
             <button
+              disabled={saving || !cookieJson.trim()}
             >
