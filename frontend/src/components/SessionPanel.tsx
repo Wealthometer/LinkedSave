@@ -141,6 +141,7 @@ export function SessionPanel() {
             </button>
 
             {active && (
+              <button
                 onClick={handleClear}
                 className="
                   border border-border bg-canvas text-ink text-sm font-semibold
