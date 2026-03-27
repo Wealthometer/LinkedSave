@@ -136,3 +136,4 @@ export function SessionPanel() {
                 disabled:opacity-50 disabled:cursor-not-allowed disabled:active:scale-100
               "
             >
+                  border border-border bg-canvas text-ink text-sm font-semibold
