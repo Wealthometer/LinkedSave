@@ -13,3 +13,4 @@ const config = {
   },
   success: {
     icon: <CheckCircle2 size={16} className="shrink-0" />,
+    className: "flex bg-emerald-50 text-success border border-emerald-100",
