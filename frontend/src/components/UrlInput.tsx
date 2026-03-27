@@ -34,3 +34,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
             flex-1 h-12 px-4 rounded-xl border border-border bg-canvas text-ink text-sm
             placeholder:text-stone-300 outline-none
             transition-all duration-150
+            focus:border-brand-500 focus:bg-surface focus:ring-2 focus:ring-brand-100
