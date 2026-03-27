@@ -150,4 +150,5 @@ export function SessionPanel() {
                 Clear
             )}
         </div>
+      )}
   );
