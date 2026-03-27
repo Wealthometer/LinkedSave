@@ -146,5 +146,6 @@ export function SessionPanel() {
                   border border-border bg-canvas text-ink text-sm font-semibold
                   hover:bg-border active:scale-95 transition-all duration-150
               >
+                Clear
             )}
   );
