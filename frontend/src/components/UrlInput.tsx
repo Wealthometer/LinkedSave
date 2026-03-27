@@ -15,3 +15,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
     if (e.key === "Enter") onExtract();
   };
 
+  return (
