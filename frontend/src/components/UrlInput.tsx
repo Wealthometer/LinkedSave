@@ -35,3 +35,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
             placeholder:text-stone-300 outline-none
             transition-all duration-150
             focus:border-brand-500 focus:bg-surface focus:ring-2 focus:ring-brand-100
+          "
