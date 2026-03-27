@@ -113,6 +113,7 @@ export function SessionPanel() {
             >
               {feedback}
             </p>
+          )}
 
           <div className="flex gap-2">
             <button
