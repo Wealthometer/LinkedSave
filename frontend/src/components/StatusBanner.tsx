@@ -5,3 +5,4 @@ interface Props {
   status: StatusState;
 }
 
+const config = {
