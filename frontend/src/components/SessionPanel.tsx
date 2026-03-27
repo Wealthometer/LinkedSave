@@ -114,6 +114,7 @@ export function SessionPanel() {
               {feedback}
             </p>
 
+          <div className="flex gap-2">
             <button
               disabled={saving || !cookieJson.trim()}
               className="
