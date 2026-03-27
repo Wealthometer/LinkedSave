@@ -48,3 +48,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
             disabled:opacity-50 disabled:cursor-not-allowed disabled:active:scale-100
           "
         >
+          {loading ? (
