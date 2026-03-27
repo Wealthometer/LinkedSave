@@ -4,3 +4,4 @@ import { StatusBanner } from "./StatusBanner";
 
 interface Props {
   url: string;
+  loading: boolean;
