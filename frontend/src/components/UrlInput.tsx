@@ -32,3 +32,4 @@ export function UrlInput({ url, loading, status, onUrlChange, onExtract }: Props
           autoComplete="off"
           className="
             flex-1 h-12 px-4 rounded-xl border border-border bg-canvas text-ink text-sm
+            placeholder:text-stone-300 outline-none
