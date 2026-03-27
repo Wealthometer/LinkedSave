@@ -99,3 +99,4 @@ export function SessionPanel() {
             onChange={(e) => setCookieJson(e.target.value)}
             rows={5}
             className="
+              w-full rounded-xl border border-border bg-canvas p-3
