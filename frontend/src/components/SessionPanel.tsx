@@ -100,6 +100,7 @@ export function SessionPanel() {
             rows={5}
             className="
               w-full rounded-xl border border-border bg-canvas p-3
+              font-mono text-xs text-ink resize-y outline-none
               transition-all duration-150
               focus:border-brand-500 focus:bg-surface focus:ring-2 focus:ring-brand-100
               mb-3
