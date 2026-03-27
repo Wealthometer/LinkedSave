@@ -95,3 +95,4 @@ export function SessionPanel() {
             browser extension (Export → JSON), then paste the JSON below.
           </p>
           <textarea
+            value={cookieJson}
