@@ -10,7 +10,10 @@ export class LinkedInScraper {
 
   async launch(): Promise<void> {
     this.browser = await puppeteer.launch({
-      headless: true,
+      headless: "new",
+      executablePath:
+        process.env.PUPPETEER_EXECUTABLE_PATH ||
+        "/opt/render/.cache/puppeteer/chrome/linux-121.0.6167.85/chrome-linux64/chrome",
       args: [
         "--no-sandbox",
         "--disable-setuid-sandbox",
@@ -48,7 +51,7 @@ export class LinkedInScraper {
 
   async extractMedia(
     url: string,
-    cookies: LinkedInCookie[]
+    cookies: LinkedInCookie[],
   ): Promise<{ media: MediaItem[]; title: string }> {
     await this.launch();
     const page = await this.createPage(cookies);
@@ -79,7 +82,9 @@ export class LinkedInScraper {
         const isMediaHost = (src: string) => {
           try {
             const host = new URL(src).hostname;
-            return host === "media.licdn.com" || host.endsWith(".media.licdn.com");
+            return (
+              host === "media.licdn.com" || host.endsWith(".media.licdn.com")
+            );
           } catch {
             return false;
           }
@@ -87,12 +92,17 @@ export class LinkedInScraper {
 
         const isEmojiOrIcon = (src: string) =>
           /emoji|reaction|reactions|emoticon|like_|clap_|praise_|support|insightful|curious|comment|profile-displayphoto|ghost/.test(
-            src
+            src,
           );
 
         const addIfNew = (item: Omit<MediaItem, "index">) => {
           const key = normalize(item.fullUrl || item.url);
-          if (!results.find((r) => normalize(r.fullUrl || r.url) === key && r.type === item.type)) {
+          if (
+            !results.find(
+              (r) =>
+                normalize(r.fullUrl || r.url) === key && r.type === item.type,
+            )
+          ) {
             results.push(item);
           }
         };
@@ -131,7 +141,9 @@ export class LinkedInScraper {
         ];
 
         imgSelectors.forEach((sel) => {
-          document.querySelectorAll<HTMLImageElement>(sel).forEach(collectImage);
+          document
+            .querySelectorAll<HTMLImageElement>(sel)
+            .forEach(collectImage);
         });
 
         // Catch-all for large, on-domain images that weren't in targeted selectors
@@ -140,13 +152,22 @@ export class LinkedInScraper {
           .forEach((img) => collectImage(img));
 
         // Background images on divs (common for single-image posts)
-        document.querySelectorAll<HTMLElement>("[style*='background-image']").forEach((el) => {
-          const match = el.style.backgroundImage.match(/url\(["']?(.*?)["']?\)/);
-          const src = match?.[1];
-          if (src && src.startsWith("http") && isMediaHost(src) && !isEmojiOrIcon(src)) {
-            addIfNew({ type: "image", url: src, fullUrl: src });
-          }
-        });
+        document
+          .querySelectorAll<HTMLElement>("[style*='background-image']")
+          .forEach((el) => {
+            const match = el.style.backgroundImage.match(
+              /url\(["']?(.*?)["']?\)/,
+            );
+            const src = match?.[1];
+            if (
+              src &&
+              src.startsWith("http") &&
+              isMediaHost(src) &&
+              !isEmojiOrIcon(src)
+            ) {
+              addIfNew({ type: "image", url: src, fullUrl: src });
+            }
+          });
 
         const videoSelectors = [
           "video",
@@ -204,7 +225,10 @@ export class LinkedInScraper {
       });
 
       const title = await page.title();
-      const media: MediaItem[] = rawMedia.map((m, i) => ({ ...m, index: i + 1 }));
+      const media: MediaItem[] = rawMedia.map((m, i) => ({
+        ...m,
+        index: i + 1,
+      }));
 
       return { media, title };
     } finally {
