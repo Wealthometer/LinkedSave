@@ -4,10 +4,21 @@ import { router } from "./routes";
 
 const app = express();
 const PORT = process.env.PORT ? parseInt(process.env.PORT) : 3001;
+const rawFrontend = process.env.FRONTEND_URL || "http://localhost:5173";
+const ALLOWED_ORIGIN = rawFrontend.trim().replace(/\/$/, "");
 
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "http://localhost:5173",
+    origin: (origin, callback) => {
+      // Allow non-browser requests (e.g., health checks)
+      if (!origin) return callback(null, true);
+
+      const normalized = origin.replace(/\/$/, "");
+      if (normalized === ALLOWED_ORIGIN) {
+        return callback(null, true);
+      }
+      return callback(new Error("Not allowed by CORS"));
+    },
     methods: ["GET", "POST", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type"],
   })
